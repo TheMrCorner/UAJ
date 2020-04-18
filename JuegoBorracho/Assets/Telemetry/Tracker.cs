@@ -1,18 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Tracker : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    // -------------------- VARIABLES -------------------- //
+    private static Tracker instance;
+
+
+
+
+
+    // -------------------- FUNCIONES -------------------- //
+    public static Tracker Instance { get { return instance; } }
+
+
+    void Awake()
     {
-        
+        if (instance != null && instance != this)
+            Destroy(gameObject);
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

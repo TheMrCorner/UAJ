@@ -1,18 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class TEventPlayerDeath : MonoBehaviour
+public class TEventPlayerDeath : TrackerEvent
 {
-    // Start is called before the first frame update
-    void Start()
+    public TEventPlayerDeath(float timeStamp) : base(timeStamp)
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    }
+    public override void DumpEventDataToJson()
     {
-        
+        throw new System.NotImplementedException();
     }
 }

@@ -6,9 +6,9 @@ public abstract class TrackerEvent
 {
 
     float timeStamp;
-    TrackerEvent(float timeStamp)
+    public TrackerEvent(float timeStamp)
     {
-
+        this.timeStamp = timeStamp;
     }
 
     public abstract void DumpEventDataToJson();

@@ -1,17 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using System;
 
 public abstract class TrackerEvent
 {
 
     float timeStamp;
-    TrackerEvent()
+    TrackerEvent(float timeStamp)
     {
-        timeStamp = Time.time;
+
     }
 
-    public abstract void FillEventData();
     public abstract void DumpEventDataToJson();
-
 }

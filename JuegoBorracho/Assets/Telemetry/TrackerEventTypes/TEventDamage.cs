@@ -1,18 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class TEventDanyo : MonoBehaviour
+
+public class TEventDamage : TrackerEvent
 {
-    // Start is called before the first frame update
-    void Start()
+    // -------------------- VARIABLES -------------------- //
+
+    float damage; // Daño recibido por el jugador
+
+    // -------------------- FUNCIONES -------------------- //
+
+    public TEventDamage(float timeStamp, float dmg) : base(timeStamp)
     {
-        
+        damage = dmg;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void DumpEventDataToJson()
     {
-        
+        throw new System.NotImplementedException();
     }
 }

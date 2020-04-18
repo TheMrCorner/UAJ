@@ -1,18 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class TEventChangeState : MonoBehaviour
+
+
+public class TEventChangeState : TrackerEvent
 {
-    // Start is called before the first frame update
-    void Start()
+
+    // -------------------- VARIABLES -------------------- //
+    public enum State { Ebrio, Sobrio };
+
+    private State state; // Estado al que cambia el jugador
+
+
+    // -------------------- FUNCIONES -------------------- //
+    public TEventChangeState(float timeStamp, State s) : base(timeStamp)
     {
-        
+        state = s;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public override void DumpEventDataToJson()
     {
-        
+        throw new System.NotImplementedException();
     }
 }

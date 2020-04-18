@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 public class TEventChangeState : TrackerEvent
 {
-
     // -------------------- VARIABLES -------------------- //
     public enum State { Ebrio, Sobrio };
 

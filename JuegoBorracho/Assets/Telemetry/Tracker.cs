@@ -1,9 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using System;
 
-public class Tracker : MonoBehaviour
+public class Tracker
 {
 
     // -------------------- VARIABLES -------------------- //
@@ -11,21 +9,15 @@ public class Tracker : MonoBehaviour
 
 
 
-
-
     // -------------------- FUNCIONES -------------------- //
-    public static Tracker Instance { get { return instance; } }
-
-
-    void Awake()
+    public static Tracker Instance
     {
-        if (instance != null && instance != this)
-            Destroy(gameObject);
-        else
+        get
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+            if (instance == null)
+                instance = new Tracker();
+
+            return instance;
         }
     }
-
 }

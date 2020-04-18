@@ -64,6 +64,7 @@ public class GameManager : MonoBehaviour
 
     public Camera camara;
     public DesactivaSpawn desactivaSpawn;
+
     void Start()
     {
         instance = this;	//GameManager

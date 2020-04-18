@@ -39,7 +39,11 @@ public class Tracker
             }
             else
             {
-                
+                while (_eventQueue.Count > 0)
+                {
+                    TrackerEvent auxTE = _eventQueue.Dequeue();
+                    auxTE.DumpEventDataToJson();
+                }
             }
         }
     }

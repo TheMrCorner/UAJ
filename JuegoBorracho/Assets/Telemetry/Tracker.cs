@@ -9,20 +9,20 @@ public class Tracker
     // -------------------- VARIABLES -------------------- //
     private static Tracker instance;
     private static Queue<TrackerEvent> _eventQueue;
-
-
     // -------------------- FUNCIONES -------------------- //
     public static Tracker Instance
     {
         get
         {
             if (instance == null)
+            {
                 instance = new Tracker();
+                _eventQueue = new Queue<TrackerEvent>();
+            }
             return instance;
         }
-    }
-    // Adds an event to the event queue
-    public void AddEvent(ref TrackerEvent trackerEvent)
+    }    // Adds an event to the event queue
+    public void AddEvent(TrackerEvent trackerEvent)
     {
         _eventQueue.Enqueue(trackerEvent);
     }    // Dumps the set number of events to json     // If numEvents == -1, dumps all the events left in the queue    public void DumpEventsToJson(int numEvents = -1)

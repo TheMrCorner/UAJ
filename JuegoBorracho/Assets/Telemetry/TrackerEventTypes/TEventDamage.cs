@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using SimpleJSON;
 
 public class TEventDamage : TrackerEvent
 {
@@ -10,13 +10,16 @@ public class TEventDamage : TrackerEvent
 
     // -------------------- FUNCIONES -------------------- //
 
-    public TEventDamage(float timeStamp, float dmg) : base(timeStamp)
+    public TEventDamage(float timeStamp, float dmg) : base(timeStamp, "Damaged")
     {
         damage = dmg;
     }
 
-    public override void DumpEventDataToJson()
+    public override void DumpEventDataToJson(ref JSONObject dataFile)
     {
-        throw new System.NotImplementedException();
+        base.DumpEventDataToJson(ref dataFile);
+        JSONObject jDmg = new JSONObject();
+        jDmg.Add("DamageValue", this.damage);
+        dataFile.Add(this._eventType, jDmg);
     }
 }

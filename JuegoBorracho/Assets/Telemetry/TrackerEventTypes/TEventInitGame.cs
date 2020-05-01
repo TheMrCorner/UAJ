@@ -1,15 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using SimpleJSON;
 public class TEventInitGame : TrackerEvent
 {
-    public TEventInitGame(float timeStamp) : base(timeStamp)
+    public TEventInitGame(float timeStamp) : base(timeStamp, "InitLevel")
     {
 
     }
-    public override void DumpEventDataToJson()
-    {
-        throw new System.NotImplementedException();
-    }
-
 }

@@ -1,15 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System;
+using SimpleJSON;
 
 public abstract class TrackerEvent
 {
 
-    float timeStamp;
-    public TrackerEvent(float timeStamp)
+    float _timeStamp;
+    protected string _eventType;
+    public TrackerEvent(float timeStamp, string eventType)
     {
-        this.timeStamp = timeStamp;
+        this._timeStamp = timeStamp;
+        this._eventType = eventType;
     }
 
-    public abstract void DumpEventDataToJson();
+    public virtual void DumpEventDataToJson(ref JSONObject dataFile)
+    {
+        JSONObject jTime = new JSONObject();
+        jTime.Add("Timestamp", this._timeStamp);
+        dataFile.Add(this._eventType, jTime);
+    }
 }

@@ -1,18 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using SimpleJSON;
 
 public class TEventEndGame : TrackerEvent
 {
     // -------------------- FUNCIONES -------------------- //
 
-    public TEventEndGame(float timeStamp) : base(timeStamp)
+    public TEventEndGame(float timeStamp) : base(timeStamp, "EndLevel")
     {
-      
-    }
 
-    public override void DumpEventDataToJson()
-    {
-        throw new System.NotImplementedException();
     }
 }

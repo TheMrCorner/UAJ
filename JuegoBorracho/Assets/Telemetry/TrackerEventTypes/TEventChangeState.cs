@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-
+using SimpleJSON;
 
 
 public class TEventChangeState : TrackerEvent
@@ -12,14 +12,17 @@ public class TEventChangeState : TrackerEvent
 
 
     // -------------------- FUNCIONES -------------------- //
-    public TEventChangeState(float timeStamp, State s) : base(timeStamp)
+    public TEventChangeState(float timeStamp, State s) : base(timeStamp, "ChangeState")
     {
         state = s;
     }
 
 
-    public override void DumpEventDataToJson()
+    public override void DumpEventDataToJson(ref JSONObject dataFile)
     {
-        throw new System.NotImplementedException();
+        base.DumpEventDataToJson(ref dataFile);
+        JSONObject jState = new JSONObject();
+        jState.Add("StatedChangedTo", this.state.ToString());
+        dataFile.Add(this._eventType, jState);
     }
 }

@@ -5,7 +5,7 @@ using SimpleJSON;
 public abstract class TrackerEvent
 {
 
-    float _timeStamp;
+    protected float _timeStamp;
     protected string _eventType;
     public TrackerEvent(float timeStamp, string eventType)
     {
@@ -15,8 +15,8 @@ public abstract class TrackerEvent
 
     public virtual void DumpEventDataToJson(ref JSONObject dataFile)
     {
-        JSONObject jTime = new JSONObject();
-        jTime.Add("Timestamp", this._timeStamp);
-        dataFile.Add(this._eventType, jTime);
+        JSONObject jEventType = new JSONObject();
+        jEventType.Add("Type", this._eventType);
+        dataFile.Add(this._timeStamp.ToString(), jEventType); // this._timeStamp.ToString()
     }
 }

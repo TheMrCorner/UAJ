@@ -79,6 +79,11 @@ public class PlayerMovement : MonoBehaviour {
             GameManager.instance.vida = 100000;
         }
 
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            GameManager.instance.LoadScene("Menú Principal");
+        }
+
 
 		float h = Input.GetAxis("Horizontal"); //Eje Horizontal del GameObject (Funcion de Unity)
 		//Lanzamos un rayo al suelo (dirección a groundCheck de longitud 1) y se iguala a grounded

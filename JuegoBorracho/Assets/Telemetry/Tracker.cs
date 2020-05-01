@@ -1,14 +1,23 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using SimpleJSON;
 
 public class Tracker
-{     string TELEMETRY_PATH = "Assets/Telemetry/Results/";
-    // -------------------- VARIABLES -------------------- //
-    private static Tracker instance;
-    private static Queue<TrackerEvent> _eventQueue;    private JSONObject _jsonData;    private string _fileName = "";
-    // -------------------- FUNCIONES -------------------- //
+{
+     string TELEMETRY_PATH = "Assets/Telemetry/Results/";
+
+    // -------------------- VARIABLES -------------------- //
+
+    private static Tracker instance;
+
+    private static Queue<TrackerEvent> _eventQueue;
+
+    private JSONObject _jsonData;
+    private string _fileName = "";
+
+    // -------------------- FUNCIONES -------------------- //
+
     public static Tracker Instance
     {
         get
@@ -20,11 +29,17 @@ public class Tracker
             }
             return instance;
         }
-    }    // Adds an event to the event queue
+    }
+
+    // Adds an event to the event queue
     public void AddEvent(TrackerEvent trackerEvent)
     {
         _eventQueue.Enqueue(trackerEvent);
-    }    // Dumps the set number of events to json     // If numEvents == -1, dumps all the events left in the queue    public void DumpEventsToJson(int numEvents = -1)
+    }
+
+    // Dumps the set number of events to json 
+    // If numEvents == -1, dumps all the events left in the queue
+    public void DumpEventsToJson(int numEvents = -1)
     {
         if(_eventQueue.Count > 0)
         {
@@ -51,7 +66,8 @@ public class Tracker
             }
             File.WriteAllText(TELEMETRY_PATH + _fileName, file.ToString());
         }
-    }
+    }
+
     // If it has a fileName assigned, returns the file and will add data there
     // If it hasn't, finds the amount of files with the same date as filename
     // If none, assigns "date_1", if some "date_X" (each number refers to a play that day)

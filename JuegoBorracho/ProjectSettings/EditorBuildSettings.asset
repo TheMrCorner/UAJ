@@ -5,17 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: "Assets/_Scenes/Men\xFA Principal.unity"
-  - enabled: 0
+    guid: 1365a2e88bf307c4d9054599ab10780c
+  - enabled: 1
     path: Assets/_Scenes/Nivel 1.unity
-  - enabled: 0
+    guid: 3f2ea2d5787bbb04cb88873397cfa218
+  - enabled: 1
     path: Assets/_Scenes/Creditos.unity
+    guid: dce84959a6699664d96fd97798a47b33
   - enabled: 0
     path: Assets/_Scenes/Nivel 2.2 - Exterior Castillo.unity
+    guid: 5e3b316d85af8ef49bff6e0e4c3aad3b
   - enabled: 0
     path: Assets/_Scenes/Nivel 2.3 - Mazmorras.unity
+    guid: 128422b176ae85749835d14043e0f990
   - enabled: 0
     path: Assets/_Scenes/Nivel 2.4 - Interior Castillo.unity
-  - enabled: 1
+    guid: 6ba9c2844784a1c42b2baa347a191524
+  - enabled: 0
     path: Assets/_Scenes/Nivel 2.5 - Sala Boss Final.unity
+    guid: f5bbba29c26644e4890e3a3b8ca7c260
+  m_configObjects: {}

@@ -65,6 +65,10 @@ public class EnemyAI : MonoBehaviour {
 
             Invoke("Respawn", 0.01f);
             this.gameObject.SetActive(false);
+
+            float time = Time.timeSinceLevelLoad;
+
+            Tracker.Instance.AddEvent(new TEventEnemyDeath(time));
         }
 	}
 

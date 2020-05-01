@@ -4,12 +4,18 @@ using System.Collections.Generic;
 
 
 public class Tracker
-{     string FILE_NAME = "Telemetry";
-
-    // -------------------- VARIABLES -------------------- //
-    private static Tracker instance;
-    private static Queue<TrackerEvent> _eventQueue;
-    // -------------------- FUNCIONES -------------------- //
+{
+     string FILE_NAME = "Telemetry";
+
+
+    // -------------------- VARIABLES -------------------- //
+
+    private static Tracker instance;
+
+    private static Queue<TrackerEvent> _eventQueue;
+
+    // -------------------- FUNCIONES -------------------- //
+
     public static Tracker Instance
     {
         get
@@ -21,11 +27,17 @@ public class Tracker
             }
             return instance;
         }
-    }    // Adds an event to the event queue
+    }
+
+    // Adds an event to the event queue
     public void AddEvent(TrackerEvent trackerEvent)
     {
         _eventQueue.Enqueue(trackerEvent);
-    }    // Dumps the set number of events to json     // If numEvents == -1, dumps all the events left in the queue    public void DumpEventsToJson(int numEvents = -1)
+    }
+
+    // Dumps the set number of events to json 
+    // If numEvents == -1, dumps all the events left in the queue
+    public void DumpEventsToJson(int numEvents = -1)
     {
         if(_eventQueue.Count > 0)
         {
@@ -46,5 +58,6 @@ public class Tracker
                 }
             }
         }
-    }
+    }
+
 }

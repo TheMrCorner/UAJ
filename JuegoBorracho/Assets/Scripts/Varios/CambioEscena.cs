@@ -9,7 +9,7 @@ public class CambioEscena : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
-            Application.LoadLevel(Escena);
+            GameManager.instance.LoadScene(Escena);
         }
     }
 }

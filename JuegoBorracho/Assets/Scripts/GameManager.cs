@@ -137,14 +137,17 @@ public class GameManager : MonoBehaviour
             flechas = 20;
     }
     public void Disparo(){
+
+        float time = Time.timeSinceLevelLoad;
+
+        Tracker.Instance.AddEvent(new TEventShot(time));
+
         flechas--;
         UpdateGUI();
     }
 
     public void Respawn()
     {
-      
-
         barraVida.transform.localScale = new Vector3(barraVidaInicialX, barraVida.transform.localScale.y, barraVida.transform.localScale.z);
         //Aparición
         if (borracho)
@@ -239,7 +242,10 @@ public class GameManager : MonoBehaviour
         {
             muerto = true;
             Debug.Log("Muerto = " + muerto);
-          
+
+            float time = Time.timeSinceLevelLoad;
+
+            Tracker.Instance.AddEvent(new TEventPlayerDeath(time));
         }
 
         if (flechas <= 0)
@@ -247,15 +253,23 @@ public class GameManager : MonoBehaviour
             flechas = 0;
         }
 
-        if (embriaguez >= 3)
+        if (embriaguez >= 3 && !borracho)
         {
             embriaguez = 3;
             borracho = true;
+
+            float time = Time.timeSinceLevelLoad;
+
+            Tracker.Instance.AddEvent(new TEventChangeState(time, TEventChangeState.State.Ebrio));
         }
-        if (embriaguez <= 0)
+        if (embriaguez <= 0 && borracho)
         {
             embriaguez = 0;
             borracho = false;
+
+            float time = Time.timeSinceLevelLoad;
+
+            Tracker.Instance.AddEvent(new TEventChangeState(time, TEventChangeState.State.Sobrio));
         }
         botella1.SetActive(embriaguez >= 1);
         botella2.SetActive(embriaguez >= 2);
@@ -291,6 +305,8 @@ public class GameManager : MonoBehaviour
 
         vida -= danyo;
 
+        NotificaDanyo(danyo);
+
         if (vida > 0)
         {
 
@@ -323,6 +339,8 @@ public class GameManager : MonoBehaviour
             danoHumo = danoHumo / 2;
         
             vida -= danoHumo;
+
+        NotificaDanyo(danoHumo);
 
         if (vida > 0)
         {
@@ -358,6 +376,8 @@ public class GameManager : MonoBehaviour
     {
         vida -= danoRayo;
 
+        NotificaDanyo(danoRayo);
+
         if (vida > 0)
         {
             Debug.Log("El jugador recibe daño de DANORAYO" + vida);
@@ -370,6 +390,13 @@ public class GameManager : MonoBehaviour
 
         if (dentroRayo)
             Invoke("DanoRayo", 0.8f);
+    }
+
+    void NotificaDanyo(float dmg)
+    {
+        float time = Time.timeSinceLevelLoad;
+
+        Tracker.Instance.AddEvent(new TEventDamage(time, dmg));
     }
 
     public void AddKey()
@@ -386,6 +413,17 @@ public class GameManager : MonoBehaviour
 
     public void LoadScene(string nivel)
     {
+        float time = Time.realtimeSinceStartup;
+
+        if (nivel == "Nivel 1")
+        {
+            Tracker.Instance.AddEvent(new TEventInitGame(time));
+        }
+        else if (nivel == "Menú Principal")
+        {
+            Tracker.Instance.AddEvent(new TEventEndGame(time));
+        }
+
         SceneManager.LoadScene(nivel);
     }
 
@@ -422,5 +460,4 @@ public class GameManager : MonoBehaviour
     // DIÁLOGOS
     public Text dialogos;
     public GameObject CuadroDialogos;
-
 }

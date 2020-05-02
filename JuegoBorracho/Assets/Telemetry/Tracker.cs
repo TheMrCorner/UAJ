@@ -31,6 +31,9 @@ public class Tracker
         }
     }
 
+    // Returns the amount of events in queue
+    public int GetQueueNumEvents() { return _eventQueue.Count; }
+
     // Adds an event to the event queue
     public void AddEvent(TrackerEvent trackerEvent)
     {

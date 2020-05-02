@@ -15,11 +15,9 @@ public class TEventDamage : TrackerEvent
         damage = dmg;
     }
 
-    public override void DumpEventDataToJson(ref JSONObject dataFile)
+    protected override void DumpExtraDataToJson(ref JSONObject jsonEventType)
     {
-        base.DumpEventDataToJson(ref dataFile);
-        JSONObject jDmg = new JSONObject();
-        jDmg.Add("DamageValue", this.damage);
-        dataFile.Add(this._eventType, jDmg);
+        base.DumpExtraDataToJson(ref jsonEventType);
+        jsonEventType.Add("DamageValue", this.damage);
     }
 }

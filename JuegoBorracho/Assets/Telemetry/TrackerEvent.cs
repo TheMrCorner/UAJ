@@ -13,10 +13,13 @@ public abstract class TrackerEvent
         this._eventType = eventType;
     }
 
-    public virtual void DumpEventDataToJson(ref JSONObject dataFile)
+    public void DumpEventDataToJson(ref JSONObject dataFile)
     {
         JSONObject jEventType = new JSONObject();
         jEventType.Add("TimeSinceStart", this._timeStamp);
+        DumpExtraDataToJson(ref jEventType);
         dataFile.Add(this._eventType, jEventType); 
     }
+
+    protected virtual void DumpExtraDataToJson(ref JSONObject jsonEventType) {}
 }

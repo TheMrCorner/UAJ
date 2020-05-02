@@ -18,11 +18,9 @@ public class TEventChangeState : TrackerEvent
     }
 
 
-    public override void DumpEventDataToJson(ref JSONObject dataFile)
+    protected override void DumpExtraDataToJson(ref JSONObject jsonEventType)
     {
-        base.DumpEventDataToJson(ref dataFile);
-        JSONObject jState = new JSONObject();
-        jState.Add("StatedChangedTo", this.state.ToString());
-        dataFile.Add(this._eventType, jState);
+        base.DumpEventDataToJson(ref jsonEventType);
+        jsonEventType.Add("StatedChangedTo", this.state.ToString());
     }
 }

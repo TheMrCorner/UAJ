@@ -5,9 +5,8 @@ using SimpleJSON;
 
 public class Tracker
 {
-     string TELEMETRY_PATH = "Assets/Telemetry/Results/";
-
     // -------------------- VARIABLES -------------------- //
+    private string TELEMETRY_PATH = "Assets/Telemetry/Results/";
 
     private static Tracker instance;
 
@@ -45,7 +44,7 @@ public class Tracker
         if(_eventQueue.Count > 0)
         {
             //JSONObject file = GetJSONFile();
-            JSONArray file = new JSONArray();
+            JSONArray file = GetJSONFile();
             if (numEvents > 0)
             {
                 for(int i=0; i<numEvents && _eventQueue.Count>0; i++)
@@ -66,7 +65,7 @@ public class Tracker
                     file.Add(obj);
                 }
             }
-            File.AppendAllText(TELEMETRY_PATH + _fileName + ".json", file.ToString());
+            File.WriteAllText(TELEMETRY_PATH + _fileName + ".json", file.ToString(4));
         }
     }
 
@@ -74,7 +73,7 @@ public class Tracker
     // If it hasn't, finds the amount of files with the same date as filename
     // If none, assigns "date_1", if some "date_X" (each number refers to a play that day)
     // Saves all the data as Telemetry/Results/date/date_0.json
-    private void GetJSONFile()
+    private JSONArray GetJSONFile()
     {
         string auxFileName = System.DateTime.Now.ToShortDateString();
         auxFileName = auxFileName.Replace("/", "");
@@ -85,11 +84,10 @@ public class Tracker
             // tries to find the file already created in this play to add data to it
         if (_fileName != "")
         {
-            // auxFilePath = TELEMETRY_PATH + "/" + _fileName + ".json";
-            // string jsonaux = File.ReadAllText(auxFilePath);
-            // JSONObject o = JSON.Parse(jsonaux).AsObject;
-            // JSONObject o = new JSONObject();
-            // return o;
+            auxFilePath = TELEMETRY_PATH + "/" + _fileName + ".json";
+            string jsonaux = File.ReadAllText(auxFilePath);
+            JSONArray o = JSON.Parse(jsonaux).AsArray;
+            return o;
         }
         // if its the first time it tries to dump data in this play, tries to find the folder and the amount of previous files today
         else
@@ -109,10 +107,10 @@ public class Tracker
             }
             _fileName = auxFileName + "_" + numPlaysToday;
             auxFilePath = TELEMETRY_PATH + "/" + _fileName + ".json";
-            File.Create(auxFilePath);
+            File.WriteAllText(auxFilePath, new JSONArray().ToString());
         }     
         
-        // return new JSONObject();
+        return new JSONArray();
     }
 
 }

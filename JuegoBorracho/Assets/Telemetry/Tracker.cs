@@ -45,7 +45,7 @@ public class Tracker
         if(_eventQueue.Count > 0)
         {
             //JSONObject file = GetJSONFile();
-            JSONObject file = new JSONObject();
+            JSONArray file = new JSONArray();
             if (numEvents > 0)
             {
                 for(int i=0; i<numEvents && _eventQueue.Count>0; i++)
@@ -58,14 +58,12 @@ public class Tracker
             }
             else
             {
-                int i = 0;
                 while (_eventQueue.Count > 0)
                 {
                     JSONObject obj = new JSONObject();
                     TrackerEvent auxTE = _eventQueue.Dequeue();
                     auxTE.DumpEventDataToJson(ref obj);
-                    file.Add(i.ToString(), obj);
-                    i++;
+                    file.Add(obj);
                 }
             }
             File.AppendAllText(TELEMETRY_PATH + _fileName + ".json", file.ToString());

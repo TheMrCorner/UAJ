@@ -16,7 +16,7 @@ public abstract class TrackerEvent
     public virtual void DumpEventDataToJson(ref JSONObject dataFile)
     {
         JSONObject jEventType = new JSONObject();
-        jEventType.Add("Type", this._eventType);
-        dataFile.Add(this._timeStamp.ToString(), jEventType); // this._timeStamp.ToString()
+        jEventType.Add("TimeSinceStart", this._timeStamp);
+        dataFile.Add(this._eventType, jEventType); 
     }
 }

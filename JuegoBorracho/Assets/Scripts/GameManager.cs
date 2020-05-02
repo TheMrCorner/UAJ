@@ -65,6 +65,8 @@ public class GameManager : MonoBehaviour
     public Camera camara;
     public DesactivaSpawn desactivaSpawn;
 
+    bool lanzoSobrio = false;
+
     void Start()
     {
         instance = this;	//GameManager
@@ -254,19 +256,27 @@ public class GameManager : MonoBehaviour
             embriaguez = 3;
             borracho = true;
 
+            lanzoSobrio = false;
+
             float time = Time.timeSinceLevelLoad;
 
             Tracker.Instance.AddEvent(new TEventChangeState(time, TEventChangeState.State.Ebrio));
         }
-        if (embriaguez <= 0 && borracho)
+        if (embriaguez <= 0)
         {
             embriaguez = 0;
             borracho = false;
+        }
+
+        if(!borracho && !lanzoSobrio)
+        {
+            lanzoSobrio = true;
 
             float time = Time.timeSinceLevelLoad;
 
             Tracker.Instance.AddEvent(new TEventChangeState(time, TEventChangeState.State.Sobrio));
         }
+
         botella1.SetActive(embriaguez >= 1);
         botella2.SetActive(embriaguez >= 2);
         botella3.SetActive(embriaguez >= 3);

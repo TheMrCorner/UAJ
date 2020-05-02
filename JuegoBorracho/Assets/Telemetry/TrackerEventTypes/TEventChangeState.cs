@@ -20,7 +20,7 @@ public class TEventChangeState : TrackerEvent
 
     protected override void DumpExtraDataToJson(ref JSONObject jsonEventType)
     {
-        base.DumpEventDataToJson(ref jsonEventType);
+        base.DumpExtraDataToJson(ref jsonEventType);
         jsonEventType.Add("StatedChangedTo", this.state.ToString());
     }
 }

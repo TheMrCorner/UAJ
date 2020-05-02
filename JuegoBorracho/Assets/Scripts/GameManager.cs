@@ -242,10 +242,6 @@ public class GameManager : MonoBehaviour
         {
             muerto = true;
             Debug.Log("Muerto = " + muerto);
-
-            float time = Time.timeSinceLevelLoad;
-
-            Tracker.Instance.AddEvent(new TEventPlayerDeath(time));
         }
 
         if (flechas <= 0)

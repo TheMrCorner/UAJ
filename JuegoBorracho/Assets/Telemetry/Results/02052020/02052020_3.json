@@ -1,0 +1,52 @@
+[
+    {
+        "Damaged" : {
+            "TimeSinceStart" : 8.31999969482422,
+            "DamageValue" : 10
+        }
+    },
+    {
+        "Damaged" : {
+            "TimeSinceStart" : 9.03999996185303,
+            "DamageValue" : 10
+        }
+    },
+    {
+        "EnemyDeath" : {
+            "TimeSinceStart" : 12.1799993515015
+        }
+    },
+    {
+        "PlayerDeath" : {
+            "TimeSinceStart" : 16.3799991607666
+        }
+    },
+    {
+        "Damaged" : {
+            "TimeSinceStart" : 21.7600002288818,
+            "DamageValue" : 10
+        }
+    },
+    {
+        "Damaged" : {
+            "TimeSinceStart" : 22.1800003051758,
+            "DamageValue" : 10
+        }
+    },
+    {
+        "Damaged" : {
+            "TimeSinceStart" : 26.3400001525879,
+            "DamageValue" : 10
+        }
+    },
+    {
+        "EnemyDeath" : {
+            "TimeSinceStart" : 26.5
+        }
+    },
+    {
+        "PlayerDeath" : {
+            "TimeSinceStart" : 31.2199993133545
+        }
+    }
+]

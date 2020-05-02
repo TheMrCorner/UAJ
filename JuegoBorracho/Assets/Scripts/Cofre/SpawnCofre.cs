@@ -13,6 +13,10 @@ public class SpawnCofre : MonoBehaviour {
         // En caso de que el jugador muera en una zona de spawn:
         if (other.tag == "Player" && GameManager.instance.muerto)
         {
+            float time = Time.timeSinceLevelLoad;
+
+            Tracker.Instance.AddEvent(new TEventPlayerDeath(time));
+
             Debug.Log("Me han matao");
             GameManager.instance.muerto = false;
 

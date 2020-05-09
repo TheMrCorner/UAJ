@@ -1366,6 +1366,21 @@ PrefabInstance:
       propertyPath: eventStack
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: -6256871625749747581, guid: 2a79c039bad99ed479a851b7c4d1c24e,
+        type: 3}
+      propertyPath: _fType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6256871625749747581, guid: 2a79c039bad99ed479a851b7c4d1c24e,
+        type: 3}
+      propertyPath: _fileType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6256871625749747581, guid: 2a79c039bad99ed479a851b7c4d1c24e,
+        type: 3}
+      propertyPath: _eventStack
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 197383302822394472, guid: 2a79c039bad99ed479a851b7c4d1c24e,
         type: 3}
       propertyPath: m_LocalPosition.x

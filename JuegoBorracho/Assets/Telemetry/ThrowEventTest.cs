@@ -12,7 +12,7 @@ public class ThrowEventTest : MonoBehaviour
             // Time.timeSinceLevelLoad;
 
             // Tracker.Instance.AddEvent(new TEventChangeState(System.DateTime, TEventChangeState.State.Ebrio));
-            Tracker.Instance.DumpEventsToJson();
+            Tracker.Instance.DumpEventsToFile();
         }
     }
 }

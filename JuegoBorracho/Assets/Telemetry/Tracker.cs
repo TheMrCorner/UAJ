@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System;
 using SimpleJSON;
 
+public enum FileType { Json}
 public class Tracker
 {
     // -------------------- VARIABLES -------------------- //
@@ -25,7 +27,7 @@ public class Tracker
             {
                 instance = new Tracker();
                 _eventQueue = new Queue<TrackerEvent>();
-                instance.GetJSONFile();
+                instance.InitJSONFile();
             }
             return instance;
         }
@@ -42,33 +44,25 @@ public class Tracker
 
     // Dumps the set number of events to json 
     // If numEvents == -1, dumps all the events left in the queue
-    public void DumpEventsToJson(int numEvents = -1)
+    public void DumpEventsToFile(int numEvents = -1, FileType fType = FileType.Json)
     {
         if(_eventQueue.Count > 0)
         {
-            //JSONObject file = GetJSONFile();
-            JSONArray file = GetJSONFile();
             if (numEvents > 0)
             {
                 for(int i=0; i<numEvents && _eventQueue.Count>0; i++)
                 {
-                    JSONObject obj = new JSONObject();
-                    TrackerEvent auxTE = _eventQueue.Dequeue();
-                    auxTE.DumpEventDataToJson(ref obj);
-                    file.Add(obj);
+                    WriteToJson();
                 }
             }
             else
             {
                 while (_eventQueue.Count > 0)
                 {
-                    JSONObject obj = new JSONObject();
-                    TrackerEvent auxTE = _eventQueue.Dequeue();
-                    auxTE.DumpEventDataToJson(ref obj);
-                    file.Add(obj);
+                    WriteToJson();
                 }
+                CloseJsonFile();
             }
-            File.WriteAllText(TELEMETRY_PATH + _fileName + ".json", file.ToString(4));
         }
     }
 
@@ -76,7 +70,7 @@ public class Tracker
     // If it hasn't, finds the amount of files with the same date as filename
     // If none, assigns "date_1", if some "date_X" (each number refers to a play that day)
     // Saves all the data as Telemetry/Results/date/date_0.json
-    private JSONArray GetJSONFile()
+    private void InitJSONFile()
     {
         string auxFileName = System.DateTime.Now.ToShortDateString();
         auxFileName = auxFileName.Replace("/", "");
@@ -84,16 +78,8 @@ public class Tracker
         string auxFilePath;
         int numPlaysToday;
 
-            // tries to find the file already created in this play to add data to it
-        if (_fileName != "")
-        {
-            auxFilePath = TELEMETRY_PATH + "/" + _fileName + ".json";
-            string jsonaux = File.ReadAllText(auxFilePath);
-            JSONArray o = JSON.Parse(jsonaux).AsArray;
-            return o;
-        }
         // if its the first time it tries to dump data in this play, tries to find the folder and the amount of previous files today
-        else
+        if (_fileName == "")
         {
             TELEMETRY_PATH += (auxFileName + "/");
             // searches for the folder with all the data from previous plays today
@@ -110,10 +96,25 @@ public class Tracker
             }
             _fileName = auxFileName + "_" + numPlaysToday;
             auxFilePath = TELEMETRY_PATH + "/" + _fileName + ".json";
-            File.WriteAllText(auxFilePath, new JSONArray().ToString());
+            File.WriteAllText(auxFilePath, "[\n");
         }     
-        
-        return new JSONArray();
+    }
+    private void WriteToJson()
+    {
+        JSONObject obj = new JSONObject();
+        TrackerEvent auxTE = _eventQueue.Dequeue();
+        auxTE.DumpEventDataToJson(ref obj);
+        File.AppendAllText(TELEMETRY_PATH + _fileName + ".json", obj.ToString(4) + ",\n");
     }
 
+    private void CloseJsonFile()
+    {
+        using (FileStream fs = new FileStream(TELEMETRY_PATH + _fileName + ".json", FileMode.Open))
+        {
+            fs.SetLength(fs.Length - 2);
+            fs.Close();
+        }
+
+        File.AppendAllText(TELEMETRY_PATH + _fileName + ".json", "\n]");
+    }
 }

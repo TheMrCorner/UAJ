@@ -18,14 +18,14 @@ public class TelemetryManager : MonoBehaviour
         while (Application.isPlaying)
         {
             yield return new WaitUntil(() => Tracker.Instance.GetQueueNumEvents() > eventStack);
-            Tracker.Instance.DumpEventsToJson(eventStack);
+            Tracker.Instance.DumpEventsToFile(eventStack);
         }
         yield return null;
     }
 
     private void OnDestroy()
     {
-        Tracker.Instance.DumpEventsToJson();
+        Tracker.Instance.DumpEventsToFile();
 
         StopAllCoroutines();
     }

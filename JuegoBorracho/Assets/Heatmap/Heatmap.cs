@@ -7,7 +7,7 @@ using UnityEngine;
 /*
  * Clase Heatmap creada a partir del enlace https://answers.unity.com/questions/1078076/heat-map-effect.html
  */
-public class KarlHeatmap
+public class Heatmap
 {
     private float[] samples;
     private float[] circle;
@@ -28,7 +28,7 @@ public class KarlHeatmap
         }
     }
 
-    public KarlHeatmap(int aWidth, int aHeight, int aRadius)
+    public Heatmap(int aWidth, int aHeight, int aRadius)
     {
         width = aWidth;
         height = aHeight;
@@ -36,6 +36,7 @@ public class KarlHeatmap
         samples = new float[aWidth * aHeight];
         CreateCircleMap();
     }
+
     // creates our circle map that is "copied" into our map
     void CreateCircleMap()
     {
@@ -48,10 +49,21 @@ public class KarlHeatmap
                 float v = 0f;
                 if (l < 1f)
                     v = 1f - l;
-                circle[x + radius + radius * 2 * y] = v;
+
+
+                int idx = (x + radius + radius * 2 * y);
+
+                if (idx < 0)
+                    idx = -idx;
+                else
+                    idx = (circle.Length / 2) + idx; 
+
+                Debug.Log("QUE ES ESTO: " + idx);
+                circle[idx] = v;
             }
         }
     }
+
     public void AddPoint(Vector2 aPos)
     {
         int px = Mathf.RoundToInt(aPos.x);
@@ -64,7 +76,15 @@ public class KarlHeatmap
                 int iy = py + y;
                 if (ix < 0 || iy < 0 || ix >= width || iy >= height)
                     continue;
-                samples[ix + iy * width] += circle[x + radius + radius * 2 * y];
+
+                int idx = (x + radius + radius * 2 * y);
+
+                if (idx < 0)
+                    idx = -idx;
+                else
+                    idx = (circle.Length / 2) + idx;
+
+                samples[ix + iy * width] += circle[idx];
             }
         }
     }

@@ -35,7 +35,7 @@ public class MouseClickDemo : MonoBehaviour {
 	public void OnGUI()
 	{
 		if(GUI.Button(resetRect, "Reset")) {
-			Heatmap.DestroyHeatmapObjects();
+			KarlHeatmap.DestroyHeatmapObjects();
 			ClearPoints();
 #if !UNITY_WEBPLAYER
 			usePresetCoordinates = false;
@@ -69,8 +69,8 @@ public class MouseClickDemo : MonoBehaviour {
 			points.Add(go);
 		}
 
-		Texture2D heatmapImage = Heatmap.CreateHeatmap(positionArray, null, pointRadius);
-		Heatmap.CreateRenderPlane(heatmapImage);
+		Texture2D heatmapImage = KarlHeatmap.CreateHeatmap(positionArray, null, pointRadius);
+		KarlHeatmap.CreateRenderPlane(heatmapImage);
 #endif
 	}
 
@@ -87,7 +87,7 @@ public class MouseClickDemo : MonoBehaviour {
 		if(usePresetCoordinates)
 			return;
 #endif		
-		if(Input.GetMouseButtonDown(0))
+		if(Input.GetMouseButton(0))
 		{
 			if( GUIToScreenRect(resetRect).Contains(Input.mousePosition) || GUIToScreenRect(screenshotRect).Contains(Input.mousePosition) )
 				return;
@@ -121,8 +121,8 @@ public class MouseClickDemo : MonoBehaviour {
 		else
 #endif		
 		{
-			Texture2D heatmapImage = Heatmap.CreateHeatmap(PositionArrayWithGameObjects(points.ToArray()), camera, pointRadius);
-			Heatmap.CreateRenderPlane(heatmapImage);
+			Texture2D heatmapImage = KarlHeatmap.CreateHeatmap(PositionArrayWithGameObjects(points.ToArray()), camera, pointRadius);
+			KarlHeatmap.CreateRenderPlane(heatmapImage);
 		}
 	}
 
@@ -141,12 +141,12 @@ public class MouseClickDemo : MonoBehaviour {
 	public IEnumerator TakeScreenshot()
 	{
 		int i = 0;
-		while(File.Exists("Assets/Screenshot" + i + ".png")) {
+		while(File.Exists("Assets/Screenshots/Screenshot" + i + ".png")) {
 			i++;
 			yield return 0;
 		}
-		string path = "Assets/Screenshot" + i + ".png";
-		Heatmap.Screenshot(path, camera);
+		string path = "Assets/Screenshots/Screenshot" + i + ".png";
+		KarlHeatmap.Screenshot(path, camera);
 	}
 
 #if UNITY_EDITOR

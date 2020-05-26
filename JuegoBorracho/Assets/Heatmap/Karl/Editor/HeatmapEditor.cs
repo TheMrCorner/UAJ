@@ -40,7 +40,7 @@ public class HeatmapEditor : EditorWindow {
 			DestroyImmediate(cam.gameObject);
 		}
 
-		Heatmap.DestroyHeatmapObjects();
+		KarlHeatmap.DestroyHeatmapObjects();
 	}
 
 	public void CreateCamera()
@@ -101,11 +101,11 @@ public class HeatmapEditor : EditorWindow {
 				return;
 			}
 			EditorApplication.ExecuteMenuItem("Window/Game");
-			heatmapOverlay = Heatmap.CreateHeatmap(StringUtility.Vector3ArrayWithFile(heatmapTextAsset), cam, pointRadius);
+			heatmapOverlay = KarlHeatmap.CreateHeatmap(StringUtility.Vector3ArrayWithFile(heatmapTextAsset), cam, pointRadius);
 		}
 
 		if(GUILayout.Button("Screenshot"))
-			Heatmap.Screenshot("Assets/ImAHeatmap.png", cam);
+			KarlHeatmap.Screenshot("Assets/ImAHeatmap.png", cam);
 
 		if(heatmapOverlay)
 			GUILayout.Label(heatmapOverlay);

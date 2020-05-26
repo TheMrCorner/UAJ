@@ -8,7 +8,7 @@ using System.Collections.Generic;
  *
  *  Contains all methods necessary for creating a Heatmap.
  */
-public class Heatmap : ScriptableObject {
+public class KarlHeatmap : ScriptableObject {
 
 #if UNITY_EDITOR
 	[MenuItem("Window/Heatmap Documentation")]
@@ -56,7 +56,7 @@ public class Heatmap : ScriptableObject {
 		Texture2D map = new Texture2D( (int)cam.pixelWidth, (int)cam.pixelHeight, TextureFormat.ARGB32, false);	
 
 		// Set texture to alpha-fied state
-		map.SetPixels(Heatmap.ColorArray(new Color(1f, 1f, 1f, 0f), map.width*map.height), 0);
+		map.SetPixels(KarlHeatmap.ColorArray(new Color(1f, 1f, 1f, 0f), map.width*map.height), 0);
 
 		// Convert world to screen points
 		Vector2[] points = new Vector2[worldPoints.Length];
@@ -216,7 +216,7 @@ public class Heatmap : ScriptableObject {
 	*/	
 	public static string Screenshot(string path)
 	{
-		return Heatmap.Screenshot(path, (Camera)null);
+		return KarlHeatmap.Screenshot(path, (Camera)null);
 	}
 
 	/*!	<summary>
@@ -346,6 +346,7 @@ public class Heatmap : ScriptableObject {
 
 		return pixels;
 	}
+
 
 	public static Color NormalizeColor(Color col)
 	{

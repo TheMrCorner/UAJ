@@ -7,7 +7,7 @@ using UnityEngine;
 /*
  * Clase Heatmap creada a partir del enlace https://answers.unity.com/questions/1078076/heat-map-effect.html
  */
-public class Heatmap
+public class KarlHeatmap
 {
     private float[] samples;
     private float[] circle;
@@ -28,7 +28,7 @@ public class Heatmap
         }
     }
 
-    public Heatmap(int aWidth, int aHeight, int aRadius)
+    public KarlHeatmap(int aWidth, int aHeight, int aRadius)
     {
         width = aWidth;
         height = aHeight;

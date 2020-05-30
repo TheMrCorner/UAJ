@@ -142,7 +142,10 @@ public class GameManager : MonoBehaviour
 
         float time = Time.timeSinceLevelLoad;
 
-        Tracker.Instance.AddEvent(new TEventShot(time));
+        Vector2 pos = GameManager.instance.GetPlayerPosition();
+        Position2D p = new Position2D(pos.x, pos.y);
+
+        Tracker.Instance.AddEvent(new TEventShot(time, p));
 
         flechas--;
         UpdateGUI();
@@ -260,7 +263,11 @@ public class GameManager : MonoBehaviour
 
             float time = Time.timeSinceLevelLoad;
 
-            Tracker.Instance.AddEvent(new TEventChangeState(time, TEventChangeState.State.Ebrio));
+
+            Vector2 pos = GameManager.instance.GetPlayerPosition();
+            Position2D p = new Position2D(pos.x, pos.y);
+
+            Tracker.Instance.AddEvent(new TEventChangeState(time, p, TEventChangeState.State.Ebrio));
         }
         if (embriaguez <= 0)
         {
@@ -274,7 +281,10 @@ public class GameManager : MonoBehaviour
 
             float time = Time.timeSinceLevelLoad;
 
-            Tracker.Instance.AddEvent(new TEventChangeState(time, TEventChangeState.State.Sobrio));
+            Vector2 pos = GameManager.instance.GetPlayerPosition();
+            Position2D p = new Position2D(pos.x, pos.y);
+
+            Tracker.Instance.AddEvent(new TEventChangeState(time, p, TEventChangeState.State.Sobrio));
         }
 
         botella1.SetActive(embriaguez >= 1);
@@ -402,7 +412,10 @@ public class GameManager : MonoBehaviour
     {
         float time = Time.timeSinceLevelLoad;
 
-        Tracker.Instance.AddEvent(new TEventDamage(time, dmg));
+        Vector2 pos = GameManager.instance.GetPlayerPosition();
+        Position2D p = new Position2D(pos.x, pos.y);
+
+        Tracker.Instance.AddEvent(new TEventDamage(time, p, dmg));
     }
 
     public void AddKey()
@@ -421,13 +434,16 @@ public class GameManager : MonoBehaviour
     {
         float time = Time.realtimeSinceStartup;
 
+        Vector2 pos = GameManager.instance.GetPlayerPosition();
+        Position2D p = new Position2D(pos.x, pos.y);
+
         if (nivel == "Nivel 1")
         {
-            Tracker.Instance.AddEvent(new TEventInitGame(time));
+            Tracker.Instance.AddEvent(new TEventInitGame(time, p));
         }
         else if (nivel == "Menú Principal")
         {
-            Tracker.Instance.AddEvent(new TEventEndGame(time));
+            Tracker.Instance.AddEvent(new TEventEndGame(time, p));
         }
 
         SceneManager.LoadScene(nivel);
@@ -450,6 +466,9 @@ public class GameManager : MonoBehaviour
             fondoCastillo.SetActive(false);
         }
     }
+
+
+    public Vector2 GetPlayerPosition() { return Jugador.transform.position; }
 
 	public void Salir(){
 		Application.Quit ();

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using SimpleJSON;
 public class TEventInitGame : TrackerEvent
 {
-    public TEventInitGame(float timeStamp) : base(timeStamp, "InitLevel")
+    public TEventInitGame(float timeStamp, Position2D pos) : base(timeStamp, pos, "InitLevel")
     {
 
     }

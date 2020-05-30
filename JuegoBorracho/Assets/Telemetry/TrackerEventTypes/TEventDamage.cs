@@ -10,7 +10,7 @@ public class TEventDamage : TrackerEvent
 
     // -------------------- FUNCIONES -------------------- //
 
-    public TEventDamage(float timeStamp, float dmg) : base(timeStamp, "Damaged")
+    public TEventDamage(float timeStamp, Position2D pos, float dmg) : base(timeStamp, pos, "Damaged")
     {
         damage = dmg;
     }

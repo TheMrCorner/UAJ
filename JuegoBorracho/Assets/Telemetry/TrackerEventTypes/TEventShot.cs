@@ -4,7 +4,7 @@ using SimpleJSON;
 
 public class TEventShot : TrackerEvent
 {
-    public TEventShot(float timeStamp) : base(timeStamp, "PlayerShoots")
+    public TEventShot(float timeStamp, Position2D pos) : base(timeStamp, pos, "PlayerShoots")
     {
     
     }

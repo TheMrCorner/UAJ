@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using SimpleJSON;
 public class TEventPlayerDeath : TrackerEvent
 {
-    public TEventPlayerDeath(float timeStamp) : base(timeStamp, "PlayerDeath")
+    public TEventPlayerDeath(float timeStamp, Position2D pos) : base(timeStamp, pos, "PlayerDeath")
     { 
     
     }

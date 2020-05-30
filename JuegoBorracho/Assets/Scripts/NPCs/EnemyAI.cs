@@ -68,7 +68,10 @@ public class EnemyAI : MonoBehaviour {
 
             float time = Time.timeSinceLevelLoad;
 
-            Tracker.Instance.AddEvent(new TEventEnemyDeath(time));
+            Vector2 pos = GameManager.instance.GetPlayerPosition();
+            Position2D p = new Position2D(pos.x, pos.y);
+
+            Tracker.Instance.AddEvent(new TEventEnemyDeath(time, p));
         }
 	}
 

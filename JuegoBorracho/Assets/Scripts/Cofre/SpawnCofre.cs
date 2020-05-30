@@ -15,7 +15,11 @@ public class SpawnCofre : MonoBehaviour {
         {
             float time = Time.timeSinceLevelLoad;
 
-            Tracker.Instance.AddEvent(new TEventPlayerDeath(time));
+
+            Vector2 pos = GameManager.instance.GetPlayerPosition();
+            Position2D p = new Position2D(pos.x, pos.y);
+
+            Tracker.Instance.AddEvent(new TEventPlayerDeath(time, p));
 
             Debug.Log("Me han matao");
             GameManager.instance.muerto = false;

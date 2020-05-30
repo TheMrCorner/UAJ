@@ -12,7 +12,7 @@ public class TEventChangeState : TrackerEvent
 
 
     // -------------------- FUNCIONES -------------------- //
-    public TEventChangeState(float timeStamp, State s) : base(timeStamp, "ChangeState")
+    public TEventChangeState(float timeStamp, Position2D pos, State s) : base(timeStamp, pos, "ChangeState")
     {
         state = s;
     }

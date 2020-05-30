@@ -6,7 +6,7 @@ public class TEventEndGame : TrackerEvent
 {
     // -------------------- FUNCIONES -------------------- //
 
-    public TEventEndGame(float timeStamp) : base(timeStamp, "EndLevel")
+    public TEventEndGame(float timeStamp, Position2D pos) : base(timeStamp, pos, "EndLevel")
     {
 
     }

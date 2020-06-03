@@ -21,10 +21,11 @@ for t in range(len(jsonFile)):
 co = open("test.csv", "w")
 cf = csv.writer(co)
 
-header = jsonDic.keys()
+header = list(jsonDic.keys())
 values = list(jsonDic.values())
 
-cf.writerow(header)
-for v in values:      
-      cf.writerow(v)
+for i in range(len(header)):   
+    aux = [header[i], *values[i]]
+    cf.writerow(aux)
+
 co.close()

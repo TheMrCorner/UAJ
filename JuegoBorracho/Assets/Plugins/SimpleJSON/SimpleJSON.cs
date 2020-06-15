@@ -445,6 +445,8 @@ namespace SimpleJSON
                 return m_EscapeBuilder;
             }
         }
+
+
         internal static string Escape(string aText)
         {
             var sb = EscapeBuilder;
@@ -816,6 +818,14 @@ namespace SimpleJSON
 
         public override Enumerator GetEnumerator() { return new Enumerator(m_Dict.GetEnumerator()); }
 
+
+        public ArrayList GetKeys() // The method is named "GetKeys()"
+        {
+            ArrayList arrayOfStrings = new ArrayList(); // declares new array
+            foreach (KeyValuePair<string, JSONNode> N in m_Dict) // for each key/values
+                arrayOfStrings.Add(N.Key); // I add only the keys
+            return arrayOfStrings; // And then I get them all :D
+        }
 
         public override JSONNode this[string aKey]
         {

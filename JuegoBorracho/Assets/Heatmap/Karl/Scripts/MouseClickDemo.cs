@@ -89,13 +89,17 @@ public class MouseClickDemo : MonoBehaviour {
 #endif		
 		if(Input.GetMouseButton(0))
 		{
-			if( GUIToScreenRect(resetRect).Contains(Input.mousePosition) || GUIToScreenRect(screenshotRect).Contains(Input.mousePosition) )
+			Debug.Log("PINTO");
+
+			if ( GUIToScreenRect(resetRect).Contains(Input.mousePosition) || GUIToScreenRect(screenshotRect).Contains(Input.mousePosition) )
 				return;
 
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
 			if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
 				AddPoint(hit.point);
+
+				
 			}
 		}
 	}

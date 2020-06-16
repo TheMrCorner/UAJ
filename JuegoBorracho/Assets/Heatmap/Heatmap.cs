@@ -7,10 +7,13 @@ using System.IO;
 
 
 /*
- * Clase Heatmap basada en.............
+ * Clase Heatmap adaptada de "https://github.com/karl-/unity-heatmap"
  */
 public class Heatmap : MonoBehaviour
 {
+    public Camera heatmapCamera;
+    private Camera mainCamera;
+    string screenshotPath = "/Heatmap/Results/Heatmap0.png";
 
     string resultsPath = "Telemetry/Results/";
 
@@ -22,6 +25,8 @@ public class Heatmap : MonoBehaviour
      */
     private void Start()
     {
+        mainCamera = Camera.main;
+        SaveHeatmap();
         TransformPoints();
     }
 
@@ -74,5 +79,25 @@ public class Heatmap : MonoBehaviour
             // b) Luego, simplemente se añaden las nuevas coordenadas a la lista en concreto
             data[name].Add(eventCoords);
         }
+    }
+
+    private void SaveHeatmap()
+    {
+        string auxPath = screenshotPath;
+        foreach (Camera c in Camera.allCameras)
+            c.enabled = false;
+
+        mainCamera.enabled = false;
+        heatmapCamera.enabled = true;
+        heatmapCamera.tag = "MainCamera";
+        mainCamera.tag = "uwu";
+
+        auxPath = Application.dataPath + auxPath;
+
+        int i = 0;
+        while (System.IO.File.Exists(auxPath))
+            auxPath = auxPath.Replace("Heatmap"+i+".png", "Heatmap" + ++i + ".png");
+
+        ScreenCapture.CaptureScreenshot(auxPath, 50);
     }
 }

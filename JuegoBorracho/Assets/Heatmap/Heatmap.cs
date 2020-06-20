@@ -35,7 +35,7 @@ public class Heatmap : MonoBehaviour
     {
         mainCamera = Camera.main;
         data = new Dictionary<string, List<Vector3>>();
-        SaveHeatmap();
+        // SaveHeatmap();
         TransformPoints();
         FillHeatmap();
     }
@@ -86,8 +86,6 @@ public class Heatmap : MonoBehaviour
             // b) Luego, simplemente se añaden las nuevas coordenadas a la lista en concreto
             data[name].Add(eventCoords);
         }
-
-
     }
 
     private void FillHeatmap()
@@ -96,6 +94,7 @@ public class Heatmap : MonoBehaviour
         {
             Texture2D heatmapImage = KarlHeatmap.CreateHeatmap(data[shownEvent].ToArray(), heatmapCamera, accuracyRadio);
             KarlHeatmap.CreateRenderPlane(heatmapImage, heatmapCamera);
+            SaveHeatmap();
         }
         else
             Debug.LogError("data list error, error on event " + shownEvent);
@@ -109,8 +108,7 @@ public class Heatmap : MonoBehaviour
 
         mainCamera.enabled = false;
         heatmapCamera.enabled = true;
-        heatmapCamera.tag = "MainCamera";
-        mainCamera.tag = "uwu";
+
 
         auxPath = Application.dataPath + auxPath;
 

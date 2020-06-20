@@ -33511,6 +33511,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeatmapCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 2912333038509328060, guid: 33668b37958b6af4caa8f163f7133da5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912333038509328062, guid: 33668b37958b6af4caa8f163f7133da5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2912333038509328065, guid: 33668b37958b6af4caa8f163f7133da5,
         type: 3}
       propertyPath: m_LocalPosition.x

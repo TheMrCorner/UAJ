@@ -13,9 +13,15 @@ public class Heatmap : MonoBehaviour
 {
     public Camera heatmapCamera;
     private Camera mainCamera;
+
+    public string shownEvent = "Damaged";
+    [Range(1, 50)]
+    public int accuracyRadio = 2;
     string screenshotPath = "/Heatmap/Results/Heatmap0.png";
 
     string resultsPath = "Telemetry/Results/";
+
+    Dictionary<string, List<Vector3>> data;
 
     /*
      * 1. Leer los world points de los eventos.
@@ -23,11 +29,15 @@ public class Heatmap : MonoBehaviour
      * 3. Pasar los datos a un array de Vector3 por cada punto.
      * 4. Crear el heatmap pasándole los valores y la cámara concreta (usando las funciones de Karl).
      */
+
+
     private void Start()
     {
         mainCamera = Camera.main;
+        data = new Dictionary<string, List<Vector3>>();
         SaveHeatmap();
         TransformPoints();
+        FillHeatmap();
     }
 
 
@@ -48,9 +58,6 @@ public class Heatmap : MonoBehaviour
             JSONArray json = (JSONArray)JSON.Parse(jsonString);
             jsonObjects.Add(json);
         }
-
-
-        Dictionary<string, List<Vector3>> data = new Dictionary<string, List<Vector3>>();
 
         // 3) Añade al diccionario las coordenadas de cada uno, agrupándolos por tipo de evento.
         foreach(JSONArray json in jsonObjects)
@@ -79,6 +86,19 @@ public class Heatmap : MonoBehaviour
             // b) Luego, simplemente se añaden las nuevas coordenadas a la lista en concreto
             data[name].Add(eventCoords);
         }
+
+
+    }
+
+    private void FillHeatmap()
+    {
+        if (data != null && data[shownEvent] != null)
+        {
+            Texture2D heatmapImage = KarlHeatmap.CreateHeatmap(data[shownEvent].ToArray(), heatmapCamera, accuracyRadio);
+            KarlHeatmap.CreateRenderPlane(heatmapImage, heatmapCamera);
+        }
+        else
+            Debug.LogError("data list error, error on event " + shownEvent);
     }
 
     private void SaveHeatmap()
@@ -99,5 +119,10 @@ public class Heatmap : MonoBehaviour
             auxPath = auxPath.Replace("Heatmap"+i+".png", "Heatmap" + ++i + ".png");
 
         ScreenCapture.CaptureScreenshot(auxPath, 50);
+    }
+
+    private void OnValidate()
+    {
+        FillHeatmap();
     }
 }

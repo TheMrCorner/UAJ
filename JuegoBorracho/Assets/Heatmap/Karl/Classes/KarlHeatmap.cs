@@ -135,6 +135,7 @@ public class KarlHeatmap : ScriptableObject {
 		CreateRenderPlane(map, null);
 	}
 
+
 	/*!	<summary>
 	*	Creates a gameObject in front of the camera, and applies the supplied texture.
 	*	</summary>
@@ -199,7 +200,7 @@ public class KarlHeatmap : ScriptableObject {
 
 		projectionPlane.name = "Heatmap Render Plane";
 		// Move the heatmap gameobject in front of the camera
-		projectionPlane.transform.position = new Vector3(0f, 0f, 0f);
+		projectionPlane.transform.position = new Vector3(0f, 0f, -3f);
 		projectionPlane.transform.Translate(Vector3.forward, cam.transform);
 	}
 

@@ -30,6 +30,13 @@ public class PlayerAttack : MonoBehaviour {
 
 		if (Input.GetKeyDown(KeyCode.Mouse0) && !attacking) {
 
+            float time = Time.timeSinceLevelLoad;
+
+            Vector2 pos = GameManager.instance.GetPlayerPosition();
+            Position2D p = new Position2D(pos.x, pos.y);
+
+            Tracker.Instance.AddEvent(new TEventSword(time, p));
+
             attacking = true;
 
             anim.SetBool("Attack", true);

@@ -130,7 +130,14 @@ public class PlayerMovement : MonoBehaviour {
 
             //Sonido
             AudioManager.Instance.Playsound(DashClip, gameObject);
-		}
+
+            float time = Time.timeSinceLevelLoad;
+
+            Vector2 pos = GameManager.instance.GetPlayerPosition();
+            Position2D p = new Position2D(pos.x, pos.y);
+
+            Tracker.Instance.AddEvent(new TEventDash(time, p));
+        }
 
 		//PAUSE
 		if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P)){

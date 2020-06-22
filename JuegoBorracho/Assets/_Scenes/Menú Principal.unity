@@ -442,6 +442,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &222107499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 222107500}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222107500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222107499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &256228151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1239,24 +1269,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CheckPoints: []
   order: 0
-  Jugador: {fileID: 0}
+  Jugador: {fileID: 222107499}
   vida: 100
   embriaguez: 0
   llaves: 0
   flechas: 10
   borracho: 0
   muerto: 0
-  PanelDePausa: {fileID: 0}
+  PanelDePausa: {fileID: 222107499}
   activaPausa: 0
-  botella1: {fileID: 0}
-  botella2: {fileID: 0}
-  botella3: {fileID: 0}
-  barraVida: {fileID: 0}
+  botella1: {fileID: 222107499}
+  botella2: {fileID: 222107499}
+  botella3: {fileID: 222107499}
+  barraVida: {fileID: 222107499}
   contadorLlaves: {fileID: 0}
   contadorFlechas: {fileID: 0}
-  fondoBosque: {fileID: 0}
-  fondoCastillo: {fileID: 0}
-  bossDelNivel: {fileID: 0}
+  fondoBosque: {fileID: 222107499}
+  fondoCastillo: {fileID: 222107499}
+  bossDelNivel: {fileID: 222107499}
   Persecuccion: 0
   hayCofre: 0
   movBarca: {fileID: 0}
@@ -1265,7 +1295,7 @@ MonoBehaviour:
   dentroHumo: 0
   dentroRayo: 0
   dialogos: {fileID: 0}
-  CuadroDialogos: {fileID: 0}
+  CuadroDialogos: {fileID: 222107499}
 --- !u!4 &1309842255
 Transform:
   m_ObjectHideFlags: 0

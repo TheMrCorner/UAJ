@@ -1,0 +1,12 @@
+[
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 0,
+        "Position" : {
+            "x" : 0,
+            "y" : 0
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+}
+]

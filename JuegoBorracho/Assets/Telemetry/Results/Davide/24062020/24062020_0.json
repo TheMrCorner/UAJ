@@ -1,0 +1,4772 @@
+[
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 0,
+        "Position" : {
+            "x" : 0,
+            "y" : 0
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "InitLevel" : {
+        "TimeSinceStart" : 48.7090148925781,
+        "Position" : {
+            "x" : 0,
+            "y" : 0
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 0,
+        "Position" : {
+            "x" : -11.1999998092651,
+            "y" : 0
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 15.1462516784668,
+        "Position" : {
+            "x" : 14.3377275466919,
+            "y" : -0.520001351833344
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 17.4388637542725,
+        "Position" : {
+            "x" : 8.14930057525635,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 18.358772277832,
+        "Position" : {
+            "x" : 10.7851047515869,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 19.2325134277344,
+        "Position" : {
+            "x" : 13.8129453659058,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 20.1742553710938,
+        "Position" : {
+            "x" : 15.3954238891602,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 21.1262512207031,
+        "Position" : {
+            "x" : 17.9529819488525,
+            "y" : -0.520001351833344
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 21.1372928619385,
+        "Position" : {
+            "x" : 17.9529819488525,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 22.1538734436035,
+        "Position" : {
+            "x" : 15.8788738250732,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 22.1662521362305,
+        "Position" : {
+            "x" : 15.8388719558716,
+            "y" : -0.520001351833344
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 53.4222450256348,
+        "Position" : {
+            "x" : 105.988143920898,
+            "y" : 7.42999839782715
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 54.6415977478027,
+        "Position" : {
+            "x" : 103.586891174316,
+            "y" : 7.42999839782715
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 56.0464668273926,
+        "Position" : {
+            "x" : 105.256889343262,
+            "y" : 7.42999839782715
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 57.1187705993652,
+        "Position" : {
+            "x" : 108.886627197266,
+            "y" : 7.42999839782715
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 58.8259086608887,
+        "Position" : {
+            "x" : 110.936645507813,
+            "y" : 7.42999839782715
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 58.8262519836426,
+        "Position" : {
+            "x" : 110.99193572998,
+            "y" : 7.42999839782715
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 83.7257614135742,
+        "Position" : {
+            "x" : 196.213668823242,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 85.1722106933594,
+        "Position" : {
+            "x" : 198.790237426758,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 86.4823379516602,
+        "Position" : {
+            "x" : 201.566772460938,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 87.6979446411133,
+        "Position" : {
+            "x" : 203.902542114258,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 88.5868225097656,
+        "Position" : {
+            "x" : 206.81217956543,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 88.6062469482422,
+        "Position" : {
+            "x" : 206.81217956543,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 93.6361770629883,
+        "Position" : {
+            "x" : 223.385467529297,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 93.9862518310547,
+        "Position" : {
+            "x" : 223.385467529297,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 99.0862503051758,
+        "Position" : {
+            "x" : 246.448623657227,
+            "y" : 7.52999877929688
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 103.546836853027,
+        "Position" : {
+            "x" : 269.152923583984,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 104.23575592041,
+        "Position" : {
+            "x" : 271.377593994141,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 104.40625,
+        "Position" : {
+            "x" : 272.256378173828,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 104.720649719238,
+        "Position" : {
+            "x" : 273.408843994141,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 114.361289978027,
+        "Position" : {
+            "x" : 309.0830078125,
+            "y" : 7.49664163589478
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 116.211891174316,
+        "Position" : {
+            "x" : 313.746276855469,
+            "y" : 7.49664878845215
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 116.226249694824,
+        "Position" : {
+            "x" : 313.801574707031,
+            "y" : 7.49664878845215
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 141.029556274414,
+        "Position" : {
+            "x" : 407.533325195313,
+            "y" : 8.78816413879395
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 143.510223388672,
+        "Position" : {
+            "x" : 409.145599365234,
+            "y" : 10.3736724853516
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 144.778198242188,
+        "Position" : {
+            "x" : 409.427947998047,
+            "y" : 10.6551551818848
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 145.75456237793,
+        "Position" : {
+            "x" : 408.202178955078,
+            "y" : 9.45844268798828
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 146.379211425781,
+        "Position" : {
+            "x" : 409.928375244141,
+            "y" : 10.7952823638916
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 146.586242675781,
+        "Position" : {
+            "x" : 410.938323974609,
+            "y" : 10.7361249923706
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 151.310394287109,
+        "Position" : {
+            "x" : 422.396026611328,
+            "y" : 7.63613748550415
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 152.280334472656,
+        "Position" : {
+            "x" : 419.691284179688,
+            "y" : 7.63613748550415
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 153.644256591797,
+        "Position" : {
+            "x" : 417.917816162109,
+            "y" : 7.63613748550415
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 153.646255493164,
+        "Position" : {
+            "x" : 417.786987304688,
+            "y" : 7.63613748550415
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 167.642501831055,
+        "Position" : {
+            "x" : 426.563354492188,
+            "y" : 15.5486450195313
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 170.050094604492,
+        "Position" : {
+            "x" : 422.912231445313,
+            "y" : 15.5486450195313
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 170.674926757813,
+        "Position" : {
+            "x" : 422.912231445313,
+            "y" : 15.5486450195313
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 171.224914550781,
+        "Position" : {
+            "x" : 422.912231445313,
+            "y" : 15.5486450195313
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 171.466247558594,
+        "Position" : {
+            "x" : 422.912231445313,
+            "y" : 15.5486450195313
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 180.356018066406,
+        "Position" : {
+            "x" : 445.594573974609,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 180.546249389648,
+        "Position" : {
+            "x" : 445.594573974609,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 184.302795410156,
+        "Position" : {
+            "x" : 456.406188964844,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 184.526245117188,
+        "Position" : {
+            "x" : 456.406188964844,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 189.288360595703,
+        "Position" : {
+            "x" : 457.275573730469,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 189.972625732422,
+        "Position" : {
+            "x" : 457.275573730469,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 190.715835571289,
+        "Position" : {
+            "x" : 457.275573730469,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 191.399642944336,
+        "Position" : {
+            "x" : 457.275573730469,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 193.093826293945,
+        "Position" : {
+            "x" : 458.770751953125,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 193.106246948242,
+        "Position" : {
+            "x" : 458.880706787109,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 193.106246948242,
+        "Position" : {
+            "x" : 458.880706787109,
+            "y" : 12.3236389160156
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 208.644683837891,
+        "Position" : {
+            "x" : 447.972778320313,
+            "y" : 8.24082183837891
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 208.746246337891,
+        "Position" : {
+            "x" : 448.420959472656,
+            "y" : 9.77234554290771
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 239.93049621582,
+        "Position" : {
+            "x" : 484.010101318359,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 240.121353149414,
+        "Position" : {
+            "x" : 484.715850830078,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 240.322601318359,
+        "Position" : {
+            "x" : 485.546478271484,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 240.366241455078,
+        "Position" : {
+            "x" : 485.863006591797,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 240.623077392578,
+        "Position" : {
+            "x" : 486.555206298828,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 278.508117675781,
+        "Position" : {
+            "x" : 503.865173339844,
+            "y" : 25.5975074768066
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 279.497100830078,
+        "Position" : {
+            "x" : 503.865173339844,
+            "y" : 25.5975074768066
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 279.646240234375,
+        "Position" : {
+            "x" : 503.865173339844,
+            "y" : 25.5975074768066
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 321.291076660156,
+        "Position" : {
+            "x" : 510.749298095703,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 321.848266601563,
+        "Position" : {
+            "x" : 511.837097167969,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 322.483367919922,
+        "Position" : {
+            "x" : 513.044372558594,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 323.030670166016,
+        "Position" : {
+            "x" : 514.12646484375,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 323.146240234375,
+        "Position" : {
+            "x" : 514.365783691406,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 333.526245117188,
+        "Position" : {
+            "x" : 516.083557128906,
+            "y" : 8.7243824005127
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 334.426239013672,
+        "Position" : {
+            "x" : 512.517150878906,
+            "y" : 9.35114002227783
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 335.938323974609,
+        "Position" : {
+            "x" : 507.100158691406,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 336.872772216797,
+        "Position" : {
+            "x" : 510.537261962891,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 337.844787597656,
+        "Position" : {
+            "x" : 513.283874511719,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 338.40625,
+        "Position" : {
+            "x" : 513.720336914063,
+            "y" : 7.83501434326172
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 338.805145263672,
+        "Position" : {
+            "x" : 513.315795898438,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 340.096557617188,
+        "Position" : {
+            "x" : 509.834259033203,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 340.106231689453,
+        "Position" : {
+            "x" : 509.984832763672,
+            "y" : 7.83501434326172
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 354.944458007813,
+        "Position" : {
+            "x" : 520.857299804688,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 355.206237792969,
+        "Position" : {
+            "x" : 520.303405761719,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 355.322418212891,
+        "Position" : {
+            "x" : 520.129760742188,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 356.066070556641,
+        "Position" : {
+            "x" : 518.677368164063,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 356.680084228516,
+        "Position" : {
+            "x" : 517.46484375,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 357.322204589844,
+        "Position" : {
+            "x" : 516.212341308594,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 364.167724609375,
+        "Position" : {
+            "x" : 520.312927246094,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 364.76953125,
+        "Position" : {
+            "x" : 521.480224609375,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 365.280059814453,
+        "Position" : {
+            "x" : 522.4423828125,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 365.506256103516,
+        "Position" : {
+            "x" : 522.887451171875,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 365.604248046875,
+        "Position" : {
+            "x" : 522.922729492188,
+            "y" : 17.7315464019775
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 394.318023681641,
+        "Position" : {
+            "x" : 553.041748046875,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 394.466247558594,
+        "Position" : {
+            "x" : 553.041748046875,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 396.446228027344,
+        "Position" : {
+            "x" : 548.638366699219,
+            "y" : -58.4723892211914
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 397.460693359375,
+        "Position" : {
+            "x" : 547.088745117188,
+            "y" : -55.7171401977539
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 418.986236572266,
+        "Position" : {
+            "x" : 555.892761230469,
+            "y" : -58.2840881347656
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 419.993133544922,
+        "Position" : {
+            "x" : 555.083862304688,
+            "y" : -58.9167747497559
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 420.991485595703,
+        "Position" : {
+            "x" : 558.661376953125,
+            "y" : -55.2657318115234
+        },
+        "DamageValue" : 1
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 423.818756103516,
+        "Position" : {
+            "x" : 563.726135253906,
+            "y" : -52.8098945617676
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 424.38623046875,
+        "Position" : {
+            "x" : 562.749938964844,
+            "y" : -53.3309936523438
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 425.033020019531,
+        "Position" : {
+            "x" : 562.880981445313,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 425.786254882813,
+        "Position" : {
+            "x" : 564.373718261719,
+            "y" : -53.3309936523438
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 425.907409667969,
+        "Position" : {
+            "x" : 564.373718261719,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 426.829467773438,
+        "Position" : {
+            "x" : 563.099670410156,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 426.846252441406,
+        "Position" : {
+            "x" : 563.099670410156,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 436.90625,
+        "Position" : {
+            "x" : 585.965148925781,
+            "y" : -79.4128875732422
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 437.916229248047,
+        "Position" : {
+            "x" : 587.956848144531,
+            "y" : -74.6166076660156
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 439.366241455078,
+        "Position" : {
+            "x" : 588.5107421875,
+            "y" : -79.0935516357422
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 440.373107910156,
+        "Position" : {
+            "x" : 589.562316894531,
+            "y" : -74.7630615234375
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 441.286254882813,
+        "Position" : {
+            "x" : 592.727172851563,
+            "y" : -79.2528381347656
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 442.287811279297,
+        "Position" : {
+            "x" : 591.433471679688,
+            "y" : -79.5385284423828
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 443.299530029297,
+        "Position" : {
+            "x" : 590.607666015625,
+            "y" : -80.4275054931641
+        },
+        "DamageValue" : 1
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 444.304748535156,
+        "Position" : {
+            "x" : 588.506103515625,
+            "y" : -77.6360397338867
+        },
+        "DamageValue" : 0
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 444.426239013672,
+        "Position" : {
+            "x" : 589.233459472656,
+            "y" : -79.2017364501953
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 445.426910400391,
+        "Position" : {
+            "x" : 593.59375,
+            "y" : -80.4275054931641
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 446.434631347656,
+        "Position" : {
+            "x" : 592.8076171875,
+            "y" : -76.346435546875
+        },
+        "DamageValue" : 1
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 446.706237792969,
+        "Position" : {
+            "x" : 591.823547363281,
+            "y" : -77.3428955078125
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 456.684906005859,
+        "Position" : {
+            "x" : 569.743347167969,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 457.264831542969,
+        "Position" : {
+            "x" : 569.743347167969,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 457.873199462891,
+        "Position" : {
+            "x" : 569.743347167969,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 458.677307128906,
+        "Position" : {
+            "x" : 569.743347167969,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 459.298126220703,
+        "Position" : {
+            "x" : 569.743347167969,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 459.506256103516,
+        "Position" : {
+            "x" : 569.743347167969,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 463.246246337891,
+        "Position" : {
+            "x" : 562.839599609375,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 463.486236572266,
+        "Position" : {
+            "x" : 562.839599609375,
+            "y" : -70.9400100708008
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 476.466247558594,
+        "Position" : {
+            "x" : 553.512573242188,
+            "y" : -79.5282592773438
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 477.4716796875,
+        "Position" : {
+            "x" : 556.953186035156,
+            "y" : -74.2828063964844
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 478.286254882813,
+        "Position" : {
+            "x" : 560.094116210938,
+            "y" : -79.0676803588867
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 479.291839599609,
+        "Position" : {
+            "x" : 555.856506347656,
+            "y" : -74.1673202514648
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 481.226287841797,
+        "Position" : {
+            "x" : 554.918395996094,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 481.977447509766,
+        "Position" : {
+            "x" : 554.918395996094,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 482.618316650391,
+        "Position" : {
+            "x" : 554.918395996094,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 483.18603515625,
+        "Position" : {
+            "x" : 554.918395996094,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 483.346252441406,
+        "Position" : {
+            "x" : 554.918395996094,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 489.512939453125,
+        "Position" : {
+            "x" : 542.294189453125,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 489.546234130859,
+        "Position" : {
+            "x" : 542.294189453125,
+            "y" : -74.1525039672852
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 490.066253662109,
+        "Position" : {
+            "x" : 542.294189453125,
+            "y" : -74.1525039672852
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 490.433013916016,
+        "Position" : {
+            "x" : 542.294189453125,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 491.308807373047,
+        "Position" : {
+            "x" : 542.294189453125,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 492.252593994141,
+        "Position" : {
+            "x" : 542.294189453125,
+            "y" : -74.1525039672852
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 511.826232910156,
+        "Position" : {
+            "x" : 552.083679199219,
+            "y" : -79.0143508911133
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 512.831115722656,
+        "Position" : {
+            "x" : 552.883544921875,
+            "y" : -75.2231216430664
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 530.146240234375,
+        "Position" : {
+            "x" : 559.219360351563,
+            "y" : -58.5792083740234
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 531.155944824219,
+        "Position" : {
+            "x" : 562.787536621094,
+            "y" : -59.5146331787109
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 532.154113769531,
+        "Position" : {
+            "x" : 563.272583007813,
+            "y" : -55.4036979675293
+        },
+        "DamageValue" : 1
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 592.475280761719,
+        "Position" : {
+            "x" : 597.87255859375,
+            "y" : -45.5188522338867
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 592.756408691406,
+        "Position" : {
+            "x" : 598.602722167969,
+            "y" : -51.3553009033203
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 607.130859375,
+        "Position" : {
+            "x" : 580.056091308594,
+            "y" : 1.20999753475189
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 608.348205566406,
+        "Position" : {
+            "x" : 570.685668945313,
+            "y" : 1.20999753475189
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 636.846252441406,
+        "Position" : {
+            "x" : 574.912170410156,
+            "y" : -79.2229156494141
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 637.851440429688,
+        "Position" : {
+            "x" : 577.188781738281,
+            "y" : -74.763069152832
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 638.766235351563,
+        "Position" : {
+            "x" : 580.548889160156,
+            "y" : -79.3191909790039
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 639.78125,
+        "Position" : {
+            "x" : 583.810668945313,
+            "y" : -76.2534408569336
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 640.246215820313,
+        "Position" : {
+            "x" : 585.4462890625,
+            "y" : -79.1682052612305
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 641.248657226563,
+        "Position" : {
+            "x" : 584.679931640625,
+            "y" : -74.4590072631836
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 642.806213378906,
+        "Position" : {
+            "x" : 590.312622070313,
+            "y" : -79.0838317871094
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 643.812927246094,
+        "Position" : {
+            "x" : 591.901306152344,
+            "y" : -80.4275054931641
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 644.808349609375,
+        "Position" : {
+            "x" : 587.937683105469,
+            "y" : -75.0996551513672
+        },
+        "DamageValue" : 1
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 645.426208496094,
+        "Position" : {
+            "x" : 589.720703125,
+            "y" : -79.2159957885742
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 646.436218261719,
+        "Position" : {
+            "x" : 589.181823730469,
+            "y" : -75.1114654541016
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 647.266235351563,
+        "Position" : {
+            "x" : 587.939819335938,
+            "y" : -79.1455993652344
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 648.270141601563,
+        "Position" : {
+            "x" : 587.877380371094,
+            "y" : -76.2395095825195
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 649.3662109375,
+        "Position" : {
+            "x" : 588.08837890625,
+            "y" : -79.3405532836914
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 650.376892089844,
+        "Position" : {
+            "x" : 588.879760742188,
+            "y" : -74.5972290039063
+        },
+        "DamageValue" : 2
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 655.787658691406,
+        "Position" : {
+            "x" : 593.947021484375,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 656.398559570313,
+        "Position" : {
+            "x" : 593.947021484375,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 656.939697265625,
+        "Position" : {
+            "x" : 593.947021484375,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 657.186218261719,
+        "Position" : {
+            "x" : 593.947021484375,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 657.4423828125,
+        "Position" : {
+            "x" : 593.947021484375,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 658.846252441406,
+        "Position" : {
+            "x" : 597.611511230469,
+            "y" : -71.3493041992188
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 658.8662109375,
+        "Position" : {
+            "x" : 597.671508789063,
+            "y" : -71.6896743774414
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 658.872436523438,
+        "Position" : {
+            "x" : 352.433837890625,
+            "y" : 8.23101425170898
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 659.850219726563,
+        "Position" : {
+            "x" : 355.24462890625,
+            "y" : 7.51614046096802
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 664.306213378906,
+        "Position" : {
+            "x" : 375.247131347656,
+            "y" : 7.51614046096802
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 690.703918457031,
+        "Position" : {
+            "x" : 456.104949951172,
+            "y" : 12.3236389160156
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 692.666259765625,
+        "Position" : {
+            "x" : 455.388275146484,
+            "y" : 7.63613748550415
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 700.872131347656,
+        "Position" : {
+            "x" : 462.105743408203,
+            "y" : 18.5705223083496
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 711.846252441406,
+        "Position" : {
+            "x" : 493.826599121094,
+            "y" : 23.6457653045654
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 718.964904785156,
+        "Position" : {
+            "x" : 490.043670654297,
+            "y" : 29.5619316101074
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 719.311645507813,
+        "Position" : {
+            "x" : 491.043640136719,
+            "y" : 25.2363529205322
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 719.962280273438,
+        "Position" : {
+            "x" : 493.213745117188,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 719.986206054688,
+        "Position" : {
+            "x" : 493.029693603516,
+            "y" : 23.4600105285645
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 720.046264648438,
+        "Position" : {
+            "x" : 492.715942382813,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 720.424682617188,
+        "Position" : {
+            "x" : 491.851135253906,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 720.691833496094,
+        "Position" : {
+            "x" : 492.464721679688,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 720.946228027344,
+        "Position" : {
+            "x" : 492.537628173828,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 720.95556640625,
+        "Position" : {
+            "x" : 492.537628173828,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 721.161682128906,
+        "Position" : {
+            "x" : 492.537628173828,
+            "y" : 23.4600105285645
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 729.658935546875,
+        "Position" : {
+            "x" : 497.359649658203,
+            "y" : 30.2669200897217
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 734.38623046875,
+        "Position" : {
+            "x" : 511.926239013672,
+            "y" : 8.43969821929932
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 742.552795410156,
+        "Position" : {
+            "x" : 517.16748046875,
+            "y" : 27.3731288909912
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 748.350891113281,
+        "Position" : {
+            "x" : 540.554565429688,
+            "y" : 39.9735641479492
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 756.626220703125,
+        "Position" : {
+            "x" : 556.1337890625,
+            "y" : -43.0076293945313
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 757.666259765625,
+        "Position" : {
+            "x" : 556.381469726563,
+            "y" : -45.6952857971191
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 763.346252441406,
+        "Position" : {
+            "x" : 553.699157714844,
+            "y" : -54.9024505615234
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 768.3662109375,
+        "Position" : {
+            "x" : 555.892822265625,
+            "y" : -58.4415054321289
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 768.38623046875,
+        "Position" : {
+            "x" : 555.893249511719,
+            "y" : -58.8122482299805
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 768.391174316406,
+        "Position" : {
+            "x" : 352.433837890625,
+            "y" : 8.23101425170898
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 769.375915527344,
+        "Position" : {
+            "x" : 354.991668701172,
+            "y" : 7.51614046096802
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 773.506225585938,
+        "Position" : {
+            "x" : 375.348907470703,
+            "y" : 7.51614046096802
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 782.426208496094,
+        "Position" : {
+            "x" : 417.261962890625,
+            "y" : 9.70583915710449
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 792.753173828125,
+        "Position" : {
+            "x" : 432.203796386719,
+            "y" : 14.0700216293335
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 794.989196777344,
+        "Position" : {
+            "x" : 434.305084228516,
+            "y" : 15.7396421432495
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 796.428039550781,
+        "Position" : {
+            "x" : 443.112121582031,
+            "y" : 16.0611400604248
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 798.299194335938,
+        "Position" : {
+            "x" : 449.528533935547,
+            "y" : 10.5810441970825
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 798.326232910156,
+        "Position" : {
+            "x" : 449.528533935547,
+            "y" : 10.5198831558228
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 802.313354492188,
+        "Position" : {
+            "x" : 462.848236083984,
+            "y" : 18.9915657043457
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 810.099609375,
+        "Position" : {
+            "x" : 489.257781982422,
+            "y" : 16.8604011535645
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 837.497375488281,
+        "Position" : {
+            "x" : 508.471832275391,
+            "y" : 32.4799957275391
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 839.234313964844,
+        "Position" : {
+            "x" : 518.609619140625,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 840.619689941406,
+        "Position" : {
+            "x" : 526.753784179688,
+            "y" : 31.5000820159912
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 846.290893554688,
+        "Position" : {
+            "x" : 538.223205566406,
+            "y" : 38.3185272216797
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 853.486206054688,
+        "Position" : {
+            "x" : 556.818298339844,
+            "y" : -46.3744239807129
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 854.806213378906,
+        "Position" : {
+            "x" : 559.449401855469,
+            "y" : -48.5310020446777
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 855.786254882813,
+        "Position" : {
+            "x" : 562.711059570313,
+            "y" : -52.6629638671875
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 855.830261230469,
+        "Position" : {
+            "x" : 562.771118164063,
+            "y" : -53.3104248046875
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 856.04248046875,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3313827514648
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 856.186157226563,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3310050964355
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 856.266235351563,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3309936523438
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 856.341369628906,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 856.40625,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 857.266235351563,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3309936523438
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 857.286254882813,
+        "Position" : {
+            "x" : 562.801147460938,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 857.293701171875,
+        "Position" : {
+            "x" : 193.01383972168,
+            "y" : 8.40101432800293
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 859.183288574219,
+        "Position" : {
+            "x" : 191.410263061523,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 860.645385742188,
+        "Position" : {
+            "x" : 195.873153686523,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 862.33837890625,
+        "Position" : {
+            "x" : 202.109558105469,
+            "y" : 12.1202754974365
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 867.066223144531,
+        "Position" : {
+            "x" : 228.861770629883,
+            "y" : 7.52999877929688
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 868.669311523438,
+        "Position" : {
+            "x" : 237.097244262695,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 869.88623046875,
+        "Position" : {
+            "x" : 246.624435424805,
+            "y" : 7.52999877929688
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 870.211120605469,
+        "Position" : {
+            "x" : 248.271530151367,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 872.055786132813,
+        "Position" : {
+            "x" : 260.846649169922,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 873.611694335938,
+        "Position" : {
+            "x" : 272.075653076172,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 875.299743652344,
+        "Position" : {
+            "x" : 278.273040771484,
+            "y" : 7.52998876571655
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 876.532287597656,
+        "Position" : {
+            "x" : 287.410400390625,
+            "y" : 10.2730464935303
+        }
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 881.226257324219,
+        "Position" : {
+            "x" : 296.266448974609,
+            "y" : -4.66867780685425
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 881.227478027344,
+        "Position" : {
+            "x" : 55.8838500976563,
+            "y" : 1.37101459503174
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 886.26806640625,
+        "Position" : {
+            "x" : 67.3203582763672,
+            "y" : 13.2479162216187
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 893.029052734375,
+        "Position" : {
+            "x" : 94.4705352783203,
+            "y" : 13.3519411087036
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 895.869934082031,
+        "Position" : {
+            "x" : 109.635841369629,
+            "y" : 10.3517818450928
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 903.323608398438,
+        "Position" : {
+            "x" : 148.594329833984,
+            "y" : 10.6739377975464
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 913.794067382813,
+        "Position" : {
+            "x" : 182.307586669922,
+            "y" : 11.4068279266357
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 917.127685546875,
+        "Position" : {
+            "x" : 199.948852539063,
+            "y" : 11.7180261611938
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 921.59375,
+        "Position" : {
+            "x" : 224.594436645508,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 921.832824707031,
+        "Position" : {
+            "x" : 225.619659423828,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 922.121887207031,
+        "Position" : {
+            "x" : 226.815505981445,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 922.340148925781,
+        "Position" : {
+            "x" : 227.720153808594,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 922.40625,
+        "Position" : {
+            "x" : 228.101913452148,
+            "y" : 7.52999877929688
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 922.556213378906,
+        "Position" : {
+            "x" : 228.690078735352,
+            "y" : 7.52999877929688
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 926.346252441406,
+        "Position" : {
+            "x" : 246.377960205078,
+            "y" : 7.52999877929688
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 931.174560546875,
+        "Position" : {
+            "x" : 270.698577880859,
+            "y" : 10.4517822265625
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 934.21142578125,
+        "Position" : {
+            "x" : 287.065032958984,
+            "y" : 10.618745803833
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 939.498107910156,
+        "Position" : {
+            "x" : 304.805114746094,
+            "y" : 14.413966178894
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 941.276672363281,
+        "Position" : {
+            "x" : 313.666687011719,
+            "y" : 11.3399677276611
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 960.856689453125,
+        "Position" : {
+            "x" : 411.920166015625,
+            "y" : 10.7361450195313
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 961.200256347656,
+        "Position" : {
+            "x" : 413.359985351563,
+            "y" : 10.7361450195313
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 961.658813476563,
+        "Position" : {
+            "x" : 415.110076904297,
+            "y" : 10.7392730712891
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 961.88623046875,
+        "Position" : {
+            "x" : 415.937713623047,
+            "y" : 10.1944141387939
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 961.993591308594,
+        "Position" : {
+            "x" : 416.116760253906,
+            "y" : 10.0960502624512
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 964.498229980469,
+        "Position" : {
+            "x" : 421.030029296875,
+            "y" : 15.8912029266357
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 965.506225585938,
+        "Position" : {
+            "x" : 428.515075683594,
+            "y" : 17.2230205535889
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 965.70263671875,
+        "Position" : {
+            "x" : 429.055053710938,
+            "y" : 18.9375915527344
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 967.239685058594,
+        "Position" : {
+            "x" : 433.143890380859,
+            "y" : 16.1645088195801
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 968.759338378906,
+        "Position" : {
+            "x" : 439.832550048828,
+            "y" : 18.8430690765381
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 970.581481933594,
+        "Position" : {
+            "x" : 448.533477783203,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 974.58154296875,
+        "Position" : {
+            "x" : 448.029327392578,
+            "y" : 22.9399375915527
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 974.646240234375,
+        "Position" : {
+            "x" : 448.433746337891,
+            "y" : 23.2029838562012
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 978.869323730469,
+        "Position" : {
+            "x" : 460.373565673828,
+            "y" : 16.3853244781494
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 979.38623046875,
+        "Position" : {
+            "x" : 465.133514404297,
+            "y" : 13.8397674560547
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 980.391784667969,
+        "Position" : {
+            "x" : 469.912109375,
+            "y" : 12.3236389160156
+        },
+        "DamageValue" : 5
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 983.270568847656,
+        "Position" : {
+            "x" : 479.929412841797,
+            "y" : 19.2621421813965
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 987.328247070313,
+        "Position" : {
+            "x" : 488.297637939453,
+            "y" : 16.7522087097168
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 990.05224609375,
+        "Position" : {
+            "x" : 488.6259765625,
+            "y" : 17.5519924163818
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1000.27142333984,
+        "Position" : {
+            "x" : 499.71728515625,
+            "y" : 26.9360256195068
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1006.07165527344,
+        "Position" : {
+            "x" : 509.152618408203,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1006.62115478516,
+        "Position" : {
+            "x" : 510.200408935547,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1006.80621337891,
+        "Position" : {
+            "x" : 510.599914550781,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1009.36395263672,
+        "Position" : {
+            "x" : 517.715270996094,
+            "y" : 32.2911109924316
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1015.27801513672,
+        "Position" : {
+            "x" : 540.488891601563,
+            "y" : 39.5597724914551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1025.73962402344,
+        "Position" : {
+            "x" : 553.776062011719,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1026.40283203125,
+        "Position" : {
+            "x" : 553.776062011719,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1026.78637695313,
+        "Position" : {
+            "x" : 553.776062011719,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1028.36145019531,
+        "Position" : {
+            "x" : 552.360961914063,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1029.04772949219,
+        "Position" : {
+            "x" : 552.360961914063,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1029.65124511719,
+        "Position" : {
+            "x" : 552.360961914063,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1029.826171875,
+        "Position" : {
+            "x" : 552.360961914063,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1031.826171875,
+        "Position" : {
+            "x" : 550.124450683594,
+            "y" : -58.6643943786621
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1032.83056640625,
+        "Position" : {
+            "x" : 550.325134277344,
+            "y" : -56.7248306274414
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1033.66625976563,
+        "Position" : {
+            "x" : 552.729187011719,
+            "y" : -55.6331596374512
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1033.90270996094,
+        "Position" : {
+            "x" : 552.287658691406,
+            "y" : -56.5417022705078
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1034.46618652344,
+        "Position" : {
+            "x" : 551.897338867188,
+            "y" : -56.5399932861328
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1039.18627929688,
+        "Position" : {
+            "x" : 553.24755859375,
+            "y" : -54.8558654785156
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1039.34619140625,
+        "Position" : {
+            "x" : 553.369750976563,
+            "y" : -54.8491744995117
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 1039.3662109375,
+        "Position" : {
+            "x" : 553.381469726563,
+            "y" : -54.8491058349609
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 1039.37121582031,
+        "Position" : {
+            "x" : 193.01383972168,
+            "y" : 8.40101432800293
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1042.85729980469,
+        "Position" : {
+            "x" : 200.332305908203,
+            "y" : 14.0048656463623
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 1051.52624511719,
+        "Position" : {
+            "x" : 246.548400878906,
+            "y" : 7.52999877929688
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1057.14758300781,
+        "Position" : {
+            "x" : 273.707733154297,
+            "y" : 14.3323497772217
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1064.97033691406,
+        "Position" : {
+            "x" : 305.818298339844,
+            "y" : 12.9506797790527
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1066.54284667969,
+        "Position" : {
+            "x" : 314.466339111328,
+            "y" : 14.2253179550171
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1067.20617675781,
+        "Position" : {
+            "x" : 319.706268310547,
+            "y" : 8.85651206970215
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1087.55310058594,
+        "Position" : {
+            "x" : 419.070373535156,
+            "y" : 18.2541770935059
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1089.42626953125,
+        "Position" : {
+            "x" : 429.55712890625,
+            "y" : 15.5486450195313
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1091.72009277344,
+        "Position" : {
+            "x" : 433.140441894531,
+            "y" : 15.3012313842773
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1093.60620117188,
+        "Position" : {
+            "x" : 431.020050048828,
+            "y" : 13.1837568283081
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1096.66625976563,
+        "Position" : {
+            "x" : 430.579559326172,
+            "y" : 12.9031362533569
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1097.68627929688,
+        "Position" : {
+            "x" : 430.629058837891,
+            "y" : 12.9031448364258
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1102.64331054688,
+        "Position" : {
+            "x" : 447.143096923828,
+            "y" : 17.1435356140137
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1103.193359375,
+        "Position" : {
+            "x" : 449.815307617188,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1103.48364257813,
+        "Position" : {
+            "x" : 450.951141357422,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1103.84802246094,
+        "Position" : {
+            "x" : 452.499450683594,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1105.36328125,
+        "Position" : {
+            "x" : 447.56494140625,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1106.09912109375,
+        "Position" : {
+            "x" : 448.441009521484,
+            "y" : 18.3109169006348
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1106.326171875,
+        "Position" : {
+            "x" : 449.418029785156,
+            "y" : 20.6676445007324
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1111.48474121094,
+        "Position" : {
+            "x" : 461.191558837891,
+            "y" : 19.1015548706055
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1116.25903320313,
+        "Position" : {
+            "x" : 479.808044433594,
+            "y" : 14.905330657959
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1116.52624511719,
+        "Position" : {
+            "x" : 483.848022460938,
+            "y" : 9.23367691040039
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 1116.54626464844,
+        "Position" : {
+            "x" : 483.908020019531,
+            "y" : 8.74026870727539
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 1116.54736328125,
+        "Position" : {
+            "x" : 193.01383972168,
+            "y" : 8.40101432800293
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1119.86657714844,
+        "Position" : {
+            "x" : 202.883529663086,
+            "y" : 14.2390651702881
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 1128.02624511719,
+        "Position" : {
+            "x" : 246.599578857422,
+            "y" : 7.52999877929688
+        },
+        "StatedChangedTo" : "Ebrio"
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1133.56274414063,
+        "Position" : {
+            "x" : 274.101196289063,
+            "y" : 11.5306663513184
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1136.47900390625,
+        "Position" : {
+            "x" : 288.804229736328,
+            "y" : 11.457878112793
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1137.66430664063,
+        "Position" : {
+            "x" : 296.100555419922,
+            "y" : 10.483696937561
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1139.2568359375,
+        "Position" : {
+            "x" : 304.368621826172,
+            "y" : 12.1209516525269
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1140.40979003906,
+        "Position" : {
+            "x" : 311.660247802734,
+            "y" : 10.5853881835938
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1142.40124511719,
+        "Position" : {
+            "x" : 318.647552490234,
+            "y" : 7.49664878845215
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1146.68591308594,
+        "Position" : {
+            "x" : 336.434234619141,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1147.732421875,
+        "Position" : {
+            "x" : 345.137481689453,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1149.2265625,
+        "Position" : {
+            "x" : 356.010009765625,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1150.51501464844,
+        "Position" : {
+            "x" : 365.702606201172,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1151.97814941406,
+        "Position" : {
+            "x" : 376.464569091797,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1153.10144042969,
+        "Position" : {
+            "x" : 385.333679199219,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1154.53454589844,
+        "Position" : {
+            "x" : 395.945068359375,
+            "y" : 7.51614046096802
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1157.71875,
+        "Position" : {
+            "x" : 412.882568359375,
+            "y" : 10.7361450195313
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1157.76623535156,
+        "Position" : {
+            "x" : 416.393157958984,
+            "y" : 11.2208290100098
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1161.24951171875,
+        "Position" : {
+            "x" : 420.913299560547,
+            "y" : 16.1108646392822
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1168.04406738281,
+        "Position" : {
+            "x" : 446.941833496094,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1168.380859375,
+        "Position" : {
+            "x" : 447.682006835938,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1168.66906738281,
+        "Position" : {
+            "x" : 447.682373046875,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1169.00732421875,
+        "Position" : {
+            "x" : 447.682373046875,
+            "y" : 17.1486396789551
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1169.56103515625,
+        "Position" : {
+            "x" : 447.705932617188,
+            "y" : 20.9919586181641
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1169.70617675781,
+        "Position" : {
+            "x" : 448.367767333984,
+            "y" : 21.3388214111328
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1174.78991699219,
+        "Position" : {
+            "x" : 462.334716796875,
+            "y" : 19.0327548980713
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1216.93823242188,
+        "Position" : {
+            "x" : 508.965270996094,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1217.16625976563,
+        "Position" : {
+            "x" : 509.444793701172,
+            "y" : 25.6215534210205
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1255.31896972656,
+        "Position" : {
+            "x" : 552.867797851563,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1256.30261230469,
+        "Position" : {
+            "x" : 551.94189453125,
+            "y" : -40.5355072021484
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1268.36962890625,
+        "Position" : {
+            "x" : 547.1357421875,
+            "y" : -53.3500213623047
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1269.12902832031,
+        "Position" : {
+            "x" : 547.1357421875,
+            "y" : -53.3500213623047
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1269.326171875,
+        "Position" : {
+            "x" : 547.1357421875,
+            "y" : -53.3500213623047
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1276.38623046875,
+        "Position" : {
+            "x" : 555.891174316406,
+            "y" : -58.3796577453613
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1277.39172363281,
+        "Position" : {
+            "x" : 557.293762207031,
+            "y" : -59.5146751403809
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1278.39758300781,
+        "Position" : {
+            "x" : 560.64306640625,
+            "y" : -56.5246391296387
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1281.52624511719,
+        "Position" : {
+            "x" : 563.15283203125,
+            "y" : -53.2256660461426
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1281.55407714844,
+        "Position" : {
+            "x" : 563.182861328125,
+            "y" : -53.3765449523926
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1281.75463867188,
+        "Position" : {
+            "x" : 563.182861328125,
+            "y" : -53.3311233520508
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1281.76623535156,
+        "Position" : {
+            "x" : 563.182861328125,
+            "y" : -53.3310737609863
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1281.92407226563,
+        "Position" : {
+            "x" : 563.182861328125,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1282.09594726563,
+        "Position" : {
+            "x" : 563.182861328125,
+            "y" : -53.3309936523438
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1297.65490722656,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1298.30834960938,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1298.947265625,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1299.58435058594,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1300.23608398438,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1300.86840820313,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "EnemyDeath" : {
+        "TimeSinceStart" : 1301.10620117188,
+        "Position" : {
+            "x" : 593.96826171875,
+            "y" : -69.3400039672852
+        }
+    }
+},
+{
+    "PlayerDash" : {
+        "TimeSinceStart" : 1322.19287109375,
+        "Position" : {
+            "x" : 617.588317871094,
+            "y" : -57.6219482421875
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1350.19580078125,
+        "Position" : {
+            "x" : 716.666381835938,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1350.66772460938,
+        "Position" : {
+            "x" : 716.666381835938,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1350.84619140625,
+        "Position" : {
+            "x" : 716.666381835938,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1351.00964355469,
+        "Position" : {
+            "x" : 716.666381835938,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1352.4033203125,
+        "Position" : {
+            "x" : 717.270263671875,
+            "y" : -49.3156204223633
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1352.42626953125,
+        "Position" : {
+            "x" : 717.350219726563,
+            "y" : -49.4643478393555
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1359.6669921875,
+        "Position" : {
+            "x" : 708.982421875,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1360.54162597656,
+        "Position" : {
+            "x" : 709.838256835938,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1361.45629882813,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1362.18627929688,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1362.18627929688,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1362.18627929688,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1362.20617675781,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1362.33142089844,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1363.21630859375,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1363.88623046875,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1363.88623046875,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1363.88623046875,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1363.90625,
+        "Position" : {
+            "x" : 708.715515136719,
+            "y" : -47.9035263061523
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 1363.92626953125,
+        "Position" : {
+            "x" : 708.815490722656,
+            "y" : -47.9152984619141
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 1363.96105957031,
+        "Position" : {
+            "x" : 622.843811035156,
+            "y" : -66.9525299072266
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1364.10510253906,
+        "Position" : {
+            "x" : 623.5380859375,
+            "y" : -67.4469604492188
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1392.76623535156,
+        "Position" : {
+            "x" : 690.189514160156,
+            "y" : -56.5573768615723
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1395.98620605469,
+        "Position" : {
+            "x" : 701.531311035156,
+            "y" : -52.4506301879883
+        },
+        "DamageValue" : 20
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1399.22619628906,
+        "Position" : {
+            "x" : 706.395263671875,
+            "y" : -53.326416015625
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1400.39709472656,
+        "Position" : {
+            "x" : 707.451354980469,
+            "y" : -53.3390045166016
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1400.78698730469,
+        "Position" : {
+            "x" : 707.451354980469,
+            "y" : -53.3390045166016
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1400.8662109375,
+        "Position" : {
+            "x" : 707.451354980469,
+            "y" : -53.3390045166016
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1401.12438964844,
+        "Position" : {
+            "x" : 707.451354980469,
+            "y" : -53.3390045166016
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1406.21813964844,
+        "Position" : {
+            "x" : 717.402038574219,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1406.5947265625,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1407.06408691406,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1407.45190429688,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1407.74621582031,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1407.80810546875,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1408.09851074219,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1409.42626953125,
+        "Position" : {
+            "x" : 716.735717773438,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1417.38623046875,
+        "Position" : {
+            "x" : 717.82568359375,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1419.44616699219,
+        "Position" : {
+            "x" : 722.6064453125,
+            "y" : -56.5817604064941
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1421.12622070313,
+        "Position" : {
+            "x" : 723.24755859375,
+            "y" : -56.557373046875
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1424.36596679688,
+        "Position" : {
+            "x" : 716.890075683594,
+            "y" : -53.3400535583496
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1424.46618652344,
+        "Position" : {
+            "x" : 716.890075683594,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1424.62170410156,
+        "Position" : {
+            "x" : 716.890075683594,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1424.97546386719,
+        "Position" : {
+            "x" : 716.890075683594,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1429.48620605469,
+        "Position" : {
+            "x" : 708.93603515625,
+            "y" : -53.3390045166016
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 1429.50622558594,
+        "Position" : {
+            "x" : 708.93603515625,
+            "y" : -53.3390045166016
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1448.69763183594,
+        "Position" : {
+            "x" : 705.089477539063,
+            "y" : -48.705135345459
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1448.88012695313,
+        "Position" : {
+            "x" : 705.480407714844,
+            "y" : -49.192512512207
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1449.08764648438,
+        "Position" : {
+            "x" : 705.901123046875,
+            "y" : -49.654857635498
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1449.39233398438,
+        "Position" : {
+            "x" : 706.498901367188,
+            "y" : -50.1598167419434
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1449.8154296875,
+        "Position" : {
+            "x" : 707.649536132813,
+            "y" : -53.3436279296875
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1450.01965332031,
+        "Position" : {
+            "x" : 708.455200195313,
+            "y" : -53.3390502929688
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1454.89501953125,
+        "Position" : {
+            "x" : 712.295349121094,
+            "y" : -46.4818267822266
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1454.96618652344,
+        "Position" : {
+            "x" : 712.535339355469,
+            "y" : -46.4071350097656
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1455.857421875,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1456.20617675781,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1456.20617675781,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1456.20617675781,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1456.75024414063,
+        "Position" : {
+            "x" : 714.29248046875,
+            "y" : -47.9144554138184
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1457.84997558594,
+        "Position" : {
+            "x" : 716.571411132813,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1458.04711914063,
+        "Position" : {
+            "x" : 716.242492675781,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1458.2294921875,
+        "Position" : {
+            "x" : 716.242492675781,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1460.18212890625,
+        "Position" : {
+            "x" : 716.810729980469,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1460.28625488281,
+        "Position" : {
+            "x" : 717.259704589844,
+            "y" : -52.7353134155273
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1470.36376953125,
+        "Position" : {
+            "x" : 727.633117675781,
+            "y" : -56.557373046875
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1478.93139648438,
+        "Position" : {
+            "x" : 716.026306152344,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1479.12939453125,
+        "Position" : {
+            "x" : 716.026306152344,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1479.28466796875,
+        "Position" : {
+            "x" : 716.026306152344,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1486.10668945313,
+        "Position" : {
+            "x" : 699.683959960938,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1486.28674316406,
+        "Position" : {
+            "x" : 699.683959960938,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1486.47595214844,
+        "Position" : {
+            "x" : 699.683959960938,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1487.40173339844,
+        "Position" : {
+            "x" : 700.745361328125,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1487.59558105469,
+        "Position" : {
+            "x" : 700.745361328125,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1487.79760742188,
+        "Position" : {
+            "x" : 700.745361328125,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1490.42626953125,
+        "Position" : {
+            "x" : 700.745361328125,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1494.85375976563,
+        "Position" : {
+            "x" : 709.518127441406,
+            "y" : -50.6220169067383
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1497.22619628906,
+        "Position" : {
+            "x" : 714.407470703125,
+            "y" : -51.5145797729492
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1498.06018066406,
+        "Position" : {
+            "x" : 717.5166015625,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1498.2548828125,
+        "Position" : {
+            "x" : 717.518371582031,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1498.44958496094,
+        "Position" : {
+            "x" : 717.518371582031,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1498.72619628906,
+        "Position" : {
+            "x" : 717.518371582031,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1500.42626953125,
+        "Position" : {
+            "x" : 717.507873535156,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1501.53491210938,
+        "Position" : {
+            "x" : 713.047790527344,
+            "y" : -46.4873809814453
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1501.94616699219,
+        "Position" : {
+            "x" : 711.787841796875,
+            "y" : -49.185375213623
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 1501.96618652344,
+        "Position" : {
+            "x" : 711.727844238281,
+            "y" : -49.4433441162109
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1516.88623046875,
+        "Position" : {
+            "x" : 698.96875,
+            "y" : -50.7123489379883
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1516.98620605469,
+        "Position" : {
+            "x" : 699.288269042969,
+            "y" : -51.3547248840332
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1517.30859375,
+        "Position" : {
+            "x" : 699.858276367188,
+            "y" : -53.3413391113281
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1517.54541015625,
+        "Position" : {
+            "x" : 699.858276367188,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1517.74304199219,
+        "Position" : {
+            "x" : 699.858276367188,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1517.97082519531,
+        "Position" : {
+            "x" : 699.858276367188,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1518.11340332031,
+        "Position" : {
+            "x" : 700.130004882813,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1518.33032226563,
+        "Position" : {
+            "x" : 700.650573730469,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1520.72619628906,
+        "Position" : {
+            "x" : 700.6533203125,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1525.00622558594,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1525.00622558594,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1525.02624511719,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1525.12548828125,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1526.15698242188,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1526.70617675781,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1526.70617675781,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1526.70617675781,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1527.01416015625,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1527.93395996094,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1528.3662109375,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1528.3662109375,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1528.3662109375,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerDeath" : {
+        "TimeSinceStart" : 1528.38623046875,
+        "Position" : {
+            "x" : 714.29248046875,
+            "y" : -47.9144554138184
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1528.38623046875,
+        "Position" : {
+            "x" : 638.503845214844,
+            "y" : -55.8989868164063
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1552.01794433594,
+        "Position" : {
+            "x" : 723.916687011719,
+            "y" : -56.557373046875
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1552.89587402344,
+        "Position" : {
+            "x" : 723.916687011719,
+            "y" : -56.557373046875
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1554.55749511719,
+        "Position" : {
+            "x" : 723.916687011719,
+            "y" : -56.557373046875
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1557.28625488281,
+        "Position" : {
+            "x" : 719.00634765625,
+            "y" : -49.7004280090332
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1559.22619628906,
+        "Position" : {
+            "x" : 717.357788085938,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1561.66918945313,
+        "Position" : {
+            "x" : 713.086059570313,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1561.96618652344,
+        "Position" : {
+            "x" : 713.739501953125,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1561.96618652344,
+        "Position" : {
+            "x" : 713.739501953125,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1561.98620605469,
+        "Position" : {
+            "x" : 713.80908203125,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1562.55969238281,
+        "Position" : {
+            "x" : 713.579711914063,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1563.46008300781,
+        "Position" : {
+            "x" : 711.780700683594,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1563.94616699219,
+        "Position" : {
+            "x" : 710.78125,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1564.53247070313,
+        "Position" : {
+            "x" : 709.621887207031,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1570.21203613281,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1570.45532226563,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1570.64868164063,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1570.80871582031,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1570.96228027344,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerShoots" : {
+        "TimeSinceStart" : 1571.15368652344,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -53.3399963378906
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1573.00524902344,
+        "Position" : {
+            "x" : 700.841430664063,
+            "y" : -52.1777191162109
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1574.38623046875,
+        "Position" : {
+            "x" : 701.238220214844,
+            "y" : -53.3399963378906
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1574.8349609375,
+        "Position" : {
+            "x" : 702.800476074219,
+            "y" : -49.701114654541
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1578.31030273438,
+        "Position" : {
+            "x" : 714.214416503906,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1578.64624023438,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1578.64624023438,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1578.66625976563,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1579.17822265625,
+        "Position" : {
+            "x" : 714.192504882813,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 1580.1865234375,
+        "Position" : {
+            "x" : 714.21044921875,
+            "y" : -47.9026832580566
+        }
+    }
+},
+{
+    "Damaged" : {
+        "TimeSinceStart" : 1580.38623046875,
+        "Position" : {
+            "x" : 713.522033691406,
+            "y" : -47.9026832580566
+        },
+        "DamageValue" : 10
+    }
+},
+{
+    "EndLevel" : {
+        "TimeSinceStart" : 1646.18994140625,
+        "Position" : {
+            "x" : 738.021545410156,
+            "y" : -56.5390014648438
+        }
+    }
+},
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 0,
+        "Position" : {
+            "x" : 0,
+            "y" : 0
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+}
+]

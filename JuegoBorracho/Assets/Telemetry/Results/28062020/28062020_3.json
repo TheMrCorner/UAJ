@@ -1,0 +1,21 @@
+[
+{
+    "ChangeState" : {
+        "TimeSinceStart" : 0,
+        "Position" : {
+            "x" : -11.1999998092651,
+            "y" : 0
+        },
+        "StatedChangedTo" : "Sobrio"
+    }
+},
+{
+    "PlayerSword" : {
+        "TimeSinceStart" : 8.74216270446777,
+        "Position" : {
+            "x" : -11.1999998092651,
+            "y" : -0.520001351833344
+        }
+    }
+}
+]

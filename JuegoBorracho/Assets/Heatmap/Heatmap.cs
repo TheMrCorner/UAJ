@@ -11,13 +11,13 @@ using System.IO;
  */
 public class Heatmap : MonoBehaviour
 {
-    public Camera heatmapCamera;
+    private Camera heatmapCamera;
     private Camera mainCamera;
 
     public string shownEvent = "Damaged";
-    [Range(1, 50)]
+    [Range(1, 50)] [SerializeField]
     public int accuracyRadio = 2;
-    string screenshotPath = "/Heatmap/Results/Heatmap0.png";
+    string screenshotPath = "/Heatmap/Results/Heatmap";
 
     string resultsPath = "Telemetry/Results/";
 
@@ -36,8 +36,27 @@ public class Heatmap : MonoBehaviour
         mainCamera = Camera.main;
         data = new Dictionary<string, List<Vector3>>();
         // SaveHeatmap();
+        //TransformPoints();
+        //FillHeatmap();
+    }
+
+    public void GenerateHeatmap(string eventType)
+    {
+        shownEvent = eventType;
+
+        mainCamera = Camera.main;
+        if (mainCamera)
+            heatmapCamera = Camera.allCameras[1];
+        else
+            heatmapCamera = Camera.allCameras[0];
+
+        data = new Dictionary<string, List<Vector3>>();
+
         TransformPoints();
-        FillHeatmap();
+        
+        if(data.ContainsKey(eventType))
+            FillHeatmap();
+
     }
 
 
@@ -97,16 +116,15 @@ public class Heatmap : MonoBehaviour
             SaveHeatmap();
         }
         else
-            Debug.LogError("data list error, error on event " + shownEvent);
+            Debug.Log ("data list error, event " + shownEvent + " doesn't exist");
     }
 
     private void SaveHeatmap()
     {
-        string auxPath = screenshotPath;
+        string auxPath = screenshotPath + shownEvent + "0.png";
         foreach (Camera c in Camera.allCameras)
             c.enabled = false;
 
-        mainCamera.enabled = false;
         heatmapCamera.enabled = true;
 
 
@@ -114,13 +132,10 @@ public class Heatmap : MonoBehaviour
 
         int i = 0;
         while (System.IO.File.Exists(auxPath))
-            auxPath = auxPath.Replace("Heatmap"+i+".png", "Heatmap" + ++i + ".png");
-
+        {
+            string name = "Heatmap" + shownEvent + i + ".png";
+            auxPath = auxPath.Replace(name, "Heatmap" + shownEvent + ++i + ".png");
+        }
         ScreenCapture.CaptureScreenshot(auxPath, 50);
-    }
-
-    private void OnValidate()
-    {
-        FillHeatmap();
     }
 }

@@ -4,10 +4,13 @@ using System.Collections;
 public class CameraShake : MonoBehaviour {
 
 	public Camera mainCam;
-
+    public Camera heatmapCam;
 	float shakeAmount = 0;
 
 	void Awake(){
+        heatmapCam.enabled = false;
+        mainCam.enabled = true;
+        mainCam.aspect = 16 / 9f;
 		if (mainCam == null) {
 			mainCam = Camera.main;
 		}

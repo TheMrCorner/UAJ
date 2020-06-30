@@ -15,7 +15,7 @@ public class HeatmapMenu : MonoBehaviour
     {
         _heatmap = FindObjectOfType<Heatmap>();
     }
-
+   
     // creates every available heatmap
     //[MenuItem("Heatmaps/Generate All Heatmaps")]
     public static void GenerateAllHeatmaps()
@@ -24,7 +24,6 @@ public class HeatmapMenu : MonoBehaviour
         //for (int i = 0; i < eventTypes.Length; i++)
         //{
         //    _heatmap.GenerateHeatmap(eventTypes[i]);
-
         //}
         Debug.LogError("Generate all heatmaps doesn't work, must use separated ones");
         
